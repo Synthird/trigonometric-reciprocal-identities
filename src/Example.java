@@ -6,9 +6,9 @@ public class Example {
     
     public static void main(String[] args) throws Exception {
         System.out.println("--- Please choose a trigonometric reciprocal identity ---");
-        System.out.println("1 = Cosecant");
-        System.out.println("2 = Secant");
-        System.out.println("3 = Cotangent");
+        System.out.println("1 = Cosecant (csc)");
+        System.out.println("2 = Secant (sec)");
+        System.out.println("3 = Cotangent (cot)");
         
         System.out.print("Chosen identity: ");
         int choice = scanner.nextInt();
