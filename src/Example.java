@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Example {
     private static Scanner scanner = new Scanner(System.in);
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
+    
     public static void main(String[] args) throws Exception {
         System.out.println("--- Which reciprocal trigonometric identity do you wish to do? ---");
         System.out.println("1 = Cosecant");
