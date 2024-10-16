@@ -17,7 +17,7 @@ public class Example {
 
         if (choice == 1) {
             double solved = trigReciprocal.cosecant(solving);
-
+            
             System.out.println(String.format("csc(%s) = %s", solving, solved));
             System.out.println(String.format("Cosecant of %s is %s", solving, solved));
         } else if (choice == 2) {
@@ -27,7 +27,7 @@ public class Example {
             System.out.println(String.format("Secant of %s is %s", solving, solved));
         } else if (choice == 3) {
             double solved = trigReciprocal.cotangent(solving);
-
+            
             System.out.println(String.format("cot(%s) = %s", solving, solved));
             System.out.println(String.format("Cotangent of %s is %s", solving, solved));
         }
