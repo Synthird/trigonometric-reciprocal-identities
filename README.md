@@ -1,5 +1,5 @@
 # Trigonometric reciprocal identities
-Trigonometric reciprocal identity methods made in a java class. These methods return values as doubles in radians.
+Trigonometric reciprocal identity methods that return doubles in radians.
 
 ```Java
 TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the trigReciprocal class
