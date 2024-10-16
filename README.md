@@ -7,7 +7,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the 
 
 ## trigReciprocal methods
 ### trigReciprocal.cosecant(double number)
-Returns the cosecant of double in radians
+Returns the cosecant of a double in radians
 
 ```Java
 trigReciprocal.cosecant(1) // Returns 1.1883951057781212 radians as a double
