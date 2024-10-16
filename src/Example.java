@@ -5,12 +5,12 @@ public class Example {
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
     
     public static void main(String[] args) throws Exception {
-        System.out.println("--- Please choose a reciprocal trigonometric identity ---");
+        System.out.println("--- Please choose a trigonometric reciprocal identity ---");
         System.out.println("1 = Cosecant");
         System.out.println("2 = Secant");
         System.out.println("3 = Cotangent");
         
-        System.out.print("Chosen reciprocal trigonometric identity: ");
+        System.out.print("Chosen trigonometric reciprocal identity: ");
         int choice = scanner.nextInt();
 
         System.out.print("Please enter a number: ");
