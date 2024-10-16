@@ -10,7 +10,7 @@ public class Example {
         System.out.println("2 = Secant");
         System.out.println("3 = Cotangent");
         
-        System.out.print("Chosen trigonometric reciprocal identity: ");
+        System.out.print("Chosen identity: ");
         int choice = scanner.nextInt();
 
         System.out.print("Please enter a number: ");
@@ -20,17 +20,17 @@ public class Example {
             double solved = trigReciprocal.cosecant(solving);
             
             System.out.println(String.format("csc(%s) = %s", solving, solved));
-            System.out.println(String.format("Cosecant of %s is %s", solving, solved));
+            System.out.println(String.format("Cosecant of %s is %s radians", solving, solved));
         } else if (choice == 2) {
             double solved = trigReciprocal.secant(solving);
             
             System.out.println(String.format("sec(%s) = %s", solving, solved));
-            System.out.println(String.format("Secant of %s is %s", solving, solved));
+            System.out.println(String.format("Secant of %s is %s radians", solving, solved));
         } else if (choice == 3) {
             double solved = trigReciprocal.cotangent(solving);
             
             System.out.println(String.format("cot(%s) = %s", solving, solved));
-            System.out.println(String.format("Cotangent of %s is %s", solving, solved));
+            System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
         }
 
         scanner.close();
