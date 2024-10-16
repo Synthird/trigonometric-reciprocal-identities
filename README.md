@@ -6,6 +6,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the 
 ```
 
 ## trigReciprocal methods
+
 ### trigReciprocal.cosecant(double number)
 Returns the cosecant of a double in radians
 
