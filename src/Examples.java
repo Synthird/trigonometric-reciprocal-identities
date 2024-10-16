@@ -17,19 +17,19 @@ public class Examples {
 
         if (choice == 1) {
             double solved = trigReciprocal.cosecant(solving);
-            
-            System.out.println("csc(" + solving + ") = " + solved);
-            System.out.println("Cosecant of " + solving + " is " + solved + " radians");
+
+            System.out.println(String.format("csc(%s) = %s", solving, solved));
+            System.out.println(String.format("Cosecant of %s is %s", solving, solved));
         } else if (choice == 2) {
             double solved = trigReciprocal.secant(solving);
             
-            System.out.println("sec(" + solving + ") = " + solved);
-            System.out.println("Secant of " + solving + " is " + solved + " radians");
+            System.out.println(String.format("sec(%s) = %s", solving, solved));
+            System.out.println(String.format("Secant of %s is %s", solving, solved));
         } else if (choice == 3) {
             double solved = trigReciprocal.cotangent(solving);
 
-            System.out.println("cot(" + solving + ") = " + solved);
-            System.out.println("Cotangent of " + solving + " is " + solved + " radians");
+            System.out.println(String.format("cot(%s) = %s", solving, solved));
+            System.out.println(String.format("Cotangent of %s is %s", solving, solved));
         }
 
         scanner.close();
