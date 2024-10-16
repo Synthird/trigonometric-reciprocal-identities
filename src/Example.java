@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Examples {
+public class Example {
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
