@@ -26,7 +26,7 @@ trigReciprocal.secant(1); // Returns 1.8508157176809255 radians as a double
 ```
 
 ```Java
-trigReciprocal.secant(0); // Returns 1.0 radians as a double
+trigReciprocal.secant(0); // Returns 1.0 radian as a double
 ```
 
 ### trigReciprocal.cotangent(double number)
