@@ -12,7 +12,7 @@ public class Example {
         System.out.print("Chosen reciprocal trigonometric identity: ");
         int choice = scanner.nextInt();
 
-        System.out.print("Please choose a number: ");
+        System.out.print("Please enter a number: ");
         double solving = scanner.nextDouble();
 
         if (choice == 1) {
