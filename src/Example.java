@@ -17,17 +17,17 @@ public class Example {
         double solving = scanner.nextDouble();
 
         if (choice == 1) {
-            double solved = trigReciprocal.cosecant(solving);
+            double solved = trigReciprocal.csc(solving);
             
             System.out.println(String.format("csc(%s) = %s", solving, solved));
             System.out.println(String.format("Cosecant of %s is %s radians", solving, solved));
         } else if (choice == 2) {
-            double solved = trigReciprocal.secant(solving);
+            double solved = trigReciprocal.sec(solving);
             
             System.out.println(String.format("sec(%s) = %s", solving, solved));
             System.out.println(String.format("Secant of %s is %s radians", solving, solved));
         } else if (choice == 3) {
-            double solved = trigReciprocal.cotangent(solving);
+            double solved = trigReciprocal.cot(solving);
             
             System.out.println(String.format("cot(%s) = %s", solving, solved));
             System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
