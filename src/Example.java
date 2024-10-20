@@ -32,7 +32,7 @@ public class Example {
             System.out.println(String.format("cot(%s) = %s", solving, solved));
             System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
         } else {
-            System.out.println("Your chosen identity isn't cosecant, secant, or cotangent.....");
+            System.out.println("You didn't choose a trigonometric reciprocal identity....");
         }
 
         scanner.close();
