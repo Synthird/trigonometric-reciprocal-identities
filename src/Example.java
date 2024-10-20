@@ -4,7 +4,7 @@ public class Example {
     private static Scanner scanner = new Scanner(System.in);
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
     
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("--- Please choose a trigonometric reciprocal identity ---");
         System.out.println("1 = Cosecant (csc)");
         System.out.println("2 = Secant (sec)");
