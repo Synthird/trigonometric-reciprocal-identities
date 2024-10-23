@@ -15,7 +15,7 @@ trigReciprocal.csc(1); // Returns 1.1883951057781212 radians as a double
 ```
 
 ```Java
-trigReciprocal.csc(0); // Returns NaN since 1 ÷ sin(0) is equal to 1 ÷ 0, which is undefined
+trigReciprocal.csc(0); // Returns Double.NaN since 1 ÷ sin(0) is equal to 1 ÷ 0, which is undefined
 ```
 
 ### trigReciprocal.sec(double number) | Returns a double
@@ -37,7 +37,7 @@ trigReciprocal.cot(1); // Returns 0.6420926159343306 radians as a double
 ```
 
 ```Java
-trigReciprocal.cot(0); // Returns NaN since 1 ÷ tan(0) is equal to 1 ÷ 0, which is undefined
+trigReciprocal.cot(0); // Returns Double.NaN since 1 ÷ tan(0) is equal to 1 ÷ 0, which is undefined
 ```
 
 # License
