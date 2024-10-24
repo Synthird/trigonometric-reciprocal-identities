@@ -32,7 +32,7 @@ public class Example {
             System.out.println(String.format("cot(%s) = %s", solving, solved));
             System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
         } else {
-            System.out.println("You didn't choose an identity....");
+            System.out.println("Whoops! You didn't choose an identity....");
         }
 
         scanner.close();
