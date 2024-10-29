@@ -33,6 +33,7 @@ public class Example {
             System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
         } else {
             System.out.println("Whoops! You didn't choose an identity....");
+            System.out.println("Feel free to try again if you wish!");
         }
 
         scanner.close();
