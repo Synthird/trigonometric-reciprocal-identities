@@ -19,16 +19,19 @@ public class Example {
         if (choice == 1) {
             double solved = trigReciprocal.csc(solving);
 
+            printAnswerHeading();
             System.out.println(String.format("csc(%s) = %s", solving, solved));
             System.out.println(String.format("Cosecant of %s is equal to %s radians", solving, solved));
         } else if (choice == 2) {
             double solved = trigReciprocal.sec(solving);
 
+            printAnswerHeading();
             System.out.println(String.format("sec(%s) = %s", solving, solved));
             System.out.println(String.format("Secant of %s is equal to %s radians", solving, solved));
         } else if (choice == 3) {
             double solved = trigReciprocal.cot(solving);
 
+            printAnswerHeading();
             System.out.println(String.format("cot(%s) = %s", solving, solved));
             System.out.println(String.format("Cotangent of %s is equal to %s radians", solving, solved));
         } else {
@@ -37,5 +40,9 @@ public class Example {
         }
 
         scanner.close();
+    }
+
+    private static void printAnswerHeading() {
+        System.out.println("---- ANSWER ----");
     }
 }
