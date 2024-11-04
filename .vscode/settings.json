@@ -1,7 +1,6 @@
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
-    "java.codeGeneration.toString.codeStyle": "STRING_FORMAT",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ]
