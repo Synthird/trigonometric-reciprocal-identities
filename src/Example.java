@@ -43,6 +43,6 @@ public class Example {
     }
 
     private static void printAnswerHeading() {
-        System.out.println("---- ANSWER ----");
+        System.out.println("--- ANSWER ---");
     }
 }
