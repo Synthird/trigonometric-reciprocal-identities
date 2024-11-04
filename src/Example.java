@@ -20,17 +20,17 @@ public class Example {
             double solved = trigReciprocal.csc(solving);
 
             System.out.println(String.format("csc(%s) = %s", solving, solved));
-            System.out.println(String.format("Cosecant of %s is %s radians", solving, solved));
+            System.out.println(String.format("Cosecant of %s is equal to %s radians", solving, solved));
         } else if (choice == 2) {
             double solved = trigReciprocal.sec(solving);
 
             System.out.println(String.format("sec(%s) = %s", solving, solved));
-            System.out.println(String.format("Secant of %s is %s radians", solving, solved));
+            System.out.println(String.format("Secant of %s is equal to %s radians", solving, solved));
         } else if (choice == 3) {
             double solved = trigReciprocal.cot(solving);
 
             System.out.println(String.format("cot(%s) = %s", solving, solved));
-            System.out.println(String.format("Cotangent of %s is %s radians", solving, solved));
+            System.out.println(String.format("Cotangent of %s is equal to %s radians", solving, solved));
         } else {
             System.out.println("Whoops! You didn't choose any of the trigonometric reciprocal identities....");
             System.out.println("Feel free to try again if you wish!");
