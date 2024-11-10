@@ -13,7 +13,7 @@ public class Example {
         System.out.print("Chosen identity: ");
         int choice = scanner.nextInt();
 
-        System.out.print("Please enter a number to place into said identity: ");
+        System.out.print("Please enter a number to place into your chosen identity: ");
         double solving = scanner.nextDouble();
 
         if (choice == 1) {
