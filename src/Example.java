@@ -36,7 +36,7 @@ public class Example {
             System.out.println(String.format("Cotangent of %s is equal to %s radians", solving, solved));
         } else {
             System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
-            System.out.println("Feel free to try again if you wish.");
+            System.out.println("Feel free to try again if you want to.");
         }
 
         scanner.close();
