@@ -1,4 +1,5 @@
 # Trigonometric reciprocal identities
+
 Trigonometric reciprocal identity methods that return doubles in radians.
 
 ```Java
@@ -8,6 +9,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the 
 ## trigReciprocal methods
 
 ### trigReciprocal.csc(double number) | Returns a double
+
 Returns the cosecant of a double in radians
 
 ```Java
@@ -19,6 +21,7 @@ trigReciprocal.csc(0); // Returns Double.NaN since 1 ÷ sin(0) is equal to 1 ÷ 
 ```
 
 ### trigReciprocal.sec(double number) | Returns a double
+
 Returns the secant of a double in radians
 
 ```Java
@@ -30,6 +33,7 @@ trigReciprocal.sec(0); // Returns 1 radian as a double since 1 ÷ cos(1) is equa
 ```
 
 ### trigReciprocal.cot(double number) | Returns a double
+
 Returns the cotangent of a double in radians
 
 ```Java
@@ -41,4 +45,5 @@ trigReciprocal.cot(0); // Returns Double.NaN since 1 ÷ tan(0) is equal to 1 ÷ 
 ```
 
 # License
+
 This repository contains the MIT license. You must give credit if you are going to use its source code.
