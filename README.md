@@ -1,6 +1,6 @@
 # Trigonometric reciprocal identities
 
-Trigonometric reciprocal identity methods that return doubles in radians.
+Trigonometric reciprocal identity methods that return radians as doubles.
 
 ```Java
 TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the trigReciprocal class
