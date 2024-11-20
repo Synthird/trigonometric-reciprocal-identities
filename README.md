@@ -2,6 +2,8 @@
 
 Trigonometric reciprocal identity methods that return radians as doubles.
 
+The trigReciprocal class can be accessed in the [src folder](src) or by [clicking here](src/TrigReciprocal.java)
+
 ```Java
 TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the trigReciprocal class.
 ```
