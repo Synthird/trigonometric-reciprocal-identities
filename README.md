@@ -17,11 +17,11 @@ Returns the cosecant of a double in radians.
 $csc(x) ={{1} \over {sin(x)}}$
 
 ```Java
-trigReciprocal.csc(1); // Returns 1.1883951057781212 radians as a double.
+trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
 ```
 
 ```Java
-trigReciprocal.csc(0); // Returns Double.NaN since 1 ÷ sin(0) is equal to 1 ÷ 0, which is undefined.
+trigReciprocal.csc(0.0); // Returns Double.NaN since 1 ÷ sin(0) is equal to 1 ÷ 0, which is undefined.
 ```
 
 ### trigReciprocal.sec(double number) | Returns a double
@@ -31,11 +31,11 @@ Returns the secant of a double in radians.
 $sec(x) ={{1} \over {cos(x)}}$
 
 ```Java
-trigReciprocal.sec(1); // Returns 1.8508157176809255 radians as a double.
+trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
 ```
 
 ```Java
-trigReciprocal.sec(0); // Returns 1 radian as a double since 1 ÷ cos(1) is equal to 1 ÷ 1, which is 1.
+trigReciprocal.sec(0.0); // Returns 1 radian as a double since 1 ÷ cos(1) is equal to 1 ÷ 1, which is 1.
 ```
 
 ### trigReciprocal.cot(double number) | Returns a double
@@ -45,11 +45,11 @@ Returns the cotangent of a double in radians.
 $cot(x) ={{1} \over {tan(x)}}$
 
 ```Java
-trigReciprocal.cot(1); // Returns 0.6420926159343306 radians as a double.
+trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
 ```
 
 ```Java
-trigReciprocal.cot(0); // Returns Double.NaN since 1 ÷ tan(0) is equal to 1 ÷ 0, which is undefined.
+trigReciprocal.cot(0.0); // Returns Double.NaN since 1 ÷ tan(0) is equal to 1 ÷ 0, which is undefined.
 ```
 
 # License
