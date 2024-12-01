@@ -14,7 +14,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the 
 
 Returns the cosecant of a double in radians.
 
-$csc(x) ={{1} \over {sin(x)}}$
+$csc(number) ={{1} \over {sin(number)}}$
 
 ```Java
 trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
@@ -28,7 +28,7 @@ trigReciprocal.csc(0.0); // Returns Double.NaN since 1 ÷ sin(0) is equal to 1 �
 
 Returns the secant of a double in radians.
 
-$sec(x) ={{1} \over {cos(x)}}$
+$sec(number) ={{1} \over {cos(number)}}$
 
 ```Java
 trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
@@ -42,7 +42,7 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a double since 1 ÷ cos(1) is eq
 
 Returns the cotangent of a double in radians.
 
-$cot(x) ={{1} \over {tan(x)}}$
+$cot(number) ={{1} \over {tan(number)}}$
 
 ```Java
 trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
