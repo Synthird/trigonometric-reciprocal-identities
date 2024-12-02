@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Example {
-    // This file is an example of using the trigReciprocal methods.
+// This file is an example of using the trigReciprocal methods.
 
+public class Example {
     private static Scanner scanner = new Scanner(System.in);
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
 
