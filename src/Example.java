@@ -7,7 +7,7 @@ public class Example {
     private static TrigReciprocal trigReciprocal = new TrigReciprocal();
 
     public static void main(String[] args) {
-        System.out.println("--- Please choose a trigonometric reciprocal identity ---");
+        printHeading("Please choose a trigonometric reciprocal identity");
         System.out.println("1 = Cosecant (csc)");
         System.out.println("2 = Secant (sec)");
         System.out.println("3 = Cotangent (cot)");
@@ -18,7 +18,7 @@ public class Example {
         System.out.print("Please enter a number into your chosen identity: ");
         double solving = scanner.nextDouble();
 
-        System.out.println("--- ANSWER ---");
+        printHeading("ANSWER");
 
         if (choice == 1) {
             double answer = trigReciprocal.csc(solving);
@@ -41,5 +41,9 @@ public class Example {
         }
 
         scanner.close();
+    }
+
+    private static void printHeading(String title) {
+        System.out.println(String.format("--- %s ---", title));
     }
 }
