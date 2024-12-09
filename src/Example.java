@@ -24,17 +24,17 @@ public class Example {
             double answer = trigReciprocal.csc(solving);
 
             System.out.println(String.format("csc(%s) = %s", solving, answer));
-            System.out.println(String.format("Cosecant of %s is %s radians", solving, answer));
+            printWordAnswer("Cosecant", solving, answer);
         } else if (choice == 2) {
             double answer = trigReciprocal.sec(solving);
 
             System.out.println(String.format("sec(%s) = %s", solving, answer));
-            System.out.println(String.format("Secant of %s is %s radians", solving, answer));
+            printWordAnswer("Secant", solving, answer);
         } else if (choice == 3) {
             double answer = trigReciprocal.cot(solving);
 
             System.out.println(String.format("cot(%s) = %s", solving, answer));
-            System.out.println(String.format("Cotangent of %s is %s radians", solving, answer));
+            printWordAnswer("Cotangent", solving, answer);
         } else {
             System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
         }
@@ -44,5 +44,9 @@ public class Example {
 
     private static void printHeading(String title) {
         System.out.println(String.format("--- %s ---", title));
+    }
+
+    private static void printWordAnswer(String identityName, double askedNumber, double answer) {
+        System.out.println(String.format("%s of %s is %s radians", identityName, askedNumber, answer));
     }
 }
