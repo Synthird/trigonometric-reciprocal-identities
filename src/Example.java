@@ -8,7 +8,7 @@ public class Example {
 
     public static void main(String[] args) {
         printHeading("Please choose a trigonometric reciprocal identity");
-        System.out.println("1 = Cosecant (csc)");
+        System.out.println("1 = Cosecant (csc/cosec)");
         System.out.println("2 = Secant (sec)");
         System.out.println("3 = Cotangent (cot)");
 
