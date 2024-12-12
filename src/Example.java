@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // This file is an example of using the trigReciprocal methods.
@@ -13,24 +14,22 @@ public class Example {
         System.out.println("3 = Cotangent (cot)");
 
         System.out.print("Chosen identity: ");
-        int choice = scanner.nextInt();
-
-        System.out.print("Please enter a number into your chosen identity: ");
-        double solving = scanner.nextDouble();
+        double choice = input_double("Chosen identity");
+        double solving = input_double("Please enter a number into your chosen identity");
 
         printHeading("ANSWER");
 
-        if (choice == 1) {
+        if (choice == 1.0) {
             double answer = trigReciprocal.csc(solving);
 
             System.out.println(String.format("csc(%s) = %s", solving, answer));
             printWordAnswer("Cosecant", solving, answer);
-        } else if (choice == 2) {
+        } else if (choice == 2.0) {
             double answer = trigReciprocal.sec(solving);
 
             System.out.println(String.format("sec(%s) = %s", solving, answer));
             printWordAnswer("Secant", solving, answer);
-        } else if (choice == 3) {
+        } else if (choice == 3.0) {
             double answer = trigReciprocal.cot(solving);
 
             System.out.println(String.format("cot(%s) = %s", solving, answer));
@@ -48,5 +47,20 @@ public class Example {
 
     private static void printWordAnswer(String identityName, double askedNumber, double answer) {
         System.out.println(String.format("%s of %s is %s radians", identityName, askedNumber, answer));
+    }
+
+    @SuppressWarnings("finally")
+    private static double input_double(String message) {
+        double inputed_double = 0;
+        System.out.print(String.format("%s: ", message));
+
+        try {
+            inputed_double = scanner.nextDouble();
+        } catch (InputMismatchException inputMismatchException) {
+            System.out.println("Uh oh, you entered something that isn't a number!");
+            System.exit(0);
+        } finally {
+            return inputed_double;
+        }
     }
 }
