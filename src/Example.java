@@ -13,7 +13,6 @@ public class Example {
         System.out.println("2 = Secant (sec)");
         System.out.println("3 = Cotangent (cot)");
 
-        System.out.print("Chosen identity: ");
         double choice = input_double("Chosen identity");
         double solving = input_double("Please enter a number into your chosen identity");
 
