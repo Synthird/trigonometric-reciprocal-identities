@@ -56,7 +56,7 @@ public class Example {
         try {
             inputed_number = scanner.nextDouble();
         } catch (InputMismatchException inputMismatchException) {
-            System.out.println("Uh oh, you entered something that isn't a number!");
+            System.out.println("Uh oh! You entered something that isn't a number!");
             System.exit(0);
         } finally {
             return inputed_number;
