@@ -42,7 +42,7 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a double since 1 ÷ cos(1) is 1 
 
 Returns the cotangent of a double in radians.
 
-$cot(number) ={{1} \over {tan(number)}}$
+$cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
 ```Java
 trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
