@@ -55,8 +55,10 @@ public class Example {
 
         try {
             inputed_number = scanner.nextDouble();
+            scanner.nextLine();
         } catch (InputMismatchException inputMismatchException) {
             System.out.println("Uh oh! You entered something that isn't a number.......");
+            scanner.close();
             System.exit(0);
         } finally {
             return inputed_number;
