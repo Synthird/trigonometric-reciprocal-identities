@@ -1,4 +1,3 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // This file is an example of using the trigReciprocal methods.
@@ -48,20 +47,19 @@ public class Example {
         System.out.println(String.format("%s of %s is %s radians", identityName, askedNumber, answer));
     }
 
-    @SuppressWarnings("finally")
     private static double input_double(String message) {
         double inputed_number = 0;
+
         System.out.print(String.format("%s: ", message));
 
         try {
             inputed_number = scanner.nextDouble();
             scanner.nextLine();
-        } catch (InputMismatchException inputMismatchException) {
+        } catch (Exception e) {
             System.out.println("Uh oh! You entered something that isn't a number.......");
-            scanner.close();
             System.exit(0);
-        } finally {
-            return inputed_number;
         }
+
+        return inputed_number;
     }
 }
