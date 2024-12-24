@@ -52,6 +52,6 @@ trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
 trigReciprocal.cot(0.0); // Returns Double.NaN since 1 ÷ tan(0) is 1 ÷ 0, which is undefined.
 ```
 
-# License
+## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.
