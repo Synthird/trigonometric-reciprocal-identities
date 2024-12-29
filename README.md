@@ -2,7 +2,7 @@
 
 Trigonometric reciprocal identity methods that return radians as doubles.
 
-These methods can be used in 2 programming languages:
+These methods are currently available in:
 
 - [Java](java)
 - [Python](python)
