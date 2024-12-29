@@ -1,6 +1,6 @@
 # Trigonometric reciprocal identities
 
-Trigonometric reciprocal identity methods that return radians as doubles.
+Trigonometric reciprocal identity methods that return radians.
 
 These methods are currently available in:
 
