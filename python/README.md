@@ -14,7 +14,7 @@ import trig_reciprocal # One way of getting the trig_reciprocal module.
 
 ### trig_reciprocal.csc(numberInRadians: float) | Returns a float in radians
 
-Returns the cosecant of a double in radians.
+Returns the cosecant of a float in radians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
@@ -28,9 +28,9 @@ trig_reciprocal.csc(1.0); # Returns 1.1883951057781212 radians as a float.
 trig_reciprocal.csc(0.0); # Raises a value error due to division by 0.
 ```
 
-### trig_reciprocal.sec(numberInRadians: float) | Returns a double in radians
+### trig_reciprocal.sec(numberInRadians: float) | Returns a float in radians
 
-Returns the secant of a double in radians.
+Returns the secant of a float in radians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
@@ -46,14 +46,14 @@ trig_reciprocal.sec(0.0); # Returns 1 radian as a float since 1 รท cos(1) is 1 ร
 
 ### trig_reciprocal.cot(numberInRadians: float) | Returns a float in radians
 
-Returns the cotangent of a double in radians.
+Returns the cotangent of a float in radians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
 #### Examples
 
 ```Python
-trig_reciprocal.cot(1.0); # Returns 0.6420926159343306 radians as a double.
+trig_reciprocal.cot(1.0); # Returns 0.6420926159343306 radians as a float.
 ```
 
 ```Python
