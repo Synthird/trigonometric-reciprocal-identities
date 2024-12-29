@@ -1,4 +1,5 @@
-# Trigonometric reciprocal identities
+
+# Trigonometric reciprocal identity methods in java
 
 Trigonometric reciprocal identity methods that return radians as doubles.
 

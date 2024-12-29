@@ -1,4 +1,4 @@
-# Trigonometric reciprocal identities
+# Trigonometric reciprocal identity methods in python
 
 Trigonometric reciprocal identity methods that return radians as floats.
 
