@@ -1,6 +1,6 @@
 import trig_reciprocal
 
-# This file is an example of using the trigReciprocal methods.
+# This file is an example of using the trig_reciprocal methods.
 
 print(f"csc(1) = {trig_reciprocal.csc(1.0)} radians")
 print(f"sec(1) = {trig_reciprocal.sec(1.0)} radians")
