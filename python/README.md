@@ -2,13 +2,11 @@
 
 Trigonometric reciprocal identity methods that return radians as floats.
 
-The trig_reciprocal module can be accessed in the [src folder](src) or by [clicking here](src/trig_reciprocal.py).
+The trig_reciprocal module must be in your project before it can be used. It can be accessed in the [src folder](src) or by [clicking here](src/trig_reciprocal.py).
 
 ```Python
 import trig_reciprocal # One way of getting the trig_reciprocal module.
 ```
-
-<!-- markdownlint-disable MD024 -->
 
 ## trig_reciprocal methods
 
@@ -17,8 +15,6 @@ import trig_reciprocal # One way of getting the trig_reciprocal module.
 Returns the cosecant of a float in radians.
 
 $csc(number) ={{1} \over {sin(number)}}$
-
-#### Examples
 
 ```Python
 trig_reciprocal.csc(1.0) # Returns 1.1883951057781212 radians as a float.
@@ -34,8 +30,6 @@ Returns the secant of a float in radians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
-#### Examples
-
 ```Python
 trig_reciprocal.sec(1.0) # Returns 1.8508157176809255 radians as a float.
 ```
@@ -49,8 +43,6 @@ trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷
 Returns the cotangent of a float in radians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
-
-#### Examples
 
 ```Python
 trig_reciprocal.cot(1.0) # Returns 0.6420926159343306 radians as a float.
