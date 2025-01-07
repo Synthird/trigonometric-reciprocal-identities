@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // This file is an example of using the trigReciprocal methods.
@@ -55,7 +56,7 @@ public class Example {
 		try {
 			inputed_number = scanner.nextDouble();
 			scanner.nextLine();
-		} catch (Exception e) {
+		} catch (InputMismatchException e) {
 			System.out.println("Uh oh! You entered something that isn't a number.......");
 			System.exit(0);
 		}
