@@ -5,7 +5,7 @@ Trigonometric reciprocal identity methods that return radians as floats.
 The trig_reciprocal module must be in your project before it can be used. It can be accessed in the [src folder](src) or by [clicking here](src/trig_reciprocal.py).
 
 ```Python
-import trig_reciprocal # One way of getting the trig_reciprocal module.
+import trig_reciprocal # One way of getting the trig_reciprocal module once it is inside your project.
 ```
 
 ## trig_reciprocal methods
