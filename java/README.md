@@ -21,7 +21,7 @@ trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
 ```
 
 ```Java
-trigReciprocal.csc(0.0); // Returns Double.NaN.
+trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 ```
 
 ### trigReciprocal.sec(double numberInRadians) | Returns a double in radians
@@ -49,5 +49,5 @@ trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
 ```
 
 ```Java
-trigReciprocal.cot(0.0); // Returns Double.NaN.
+trigReciprocal.cot(0.0); // Returns Double.NaN due to division by 0.
 ```
