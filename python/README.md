@@ -21,7 +21,7 @@ trig_reciprocal.csc(1.0) # Returns 1.1883951057781212 radians as a float.
 ```
 
 ```Python
-trig_reciprocal.csc(0.0) # Raises a value error due to division by 0.
+trig_reciprocal.csc(0.0) # Raises a ValueError due to division by 0.
 ```
 
 ### trig_reciprocal.sec(numberInRadians: float) | Returns a float in radians
@@ -49,5 +49,5 @@ trig_reciprocal.cot(1.0) # Returns 0.6420926159343306 radians as a float.
 ```
 
 ```Python
-trig_reciprocal.cot(0.0) # Raises a value error due to division by 0.
+trig_reciprocal.cot(0.0) # Raises a ValueError due to division by 0.
 ```
