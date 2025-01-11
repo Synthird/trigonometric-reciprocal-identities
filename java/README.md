@@ -5,7 +5,7 @@ Trigonometric reciprocal identity methods that return radians as doubles.
 The trigReciprocal class must be inside your project before it can be used. You can access it in the [src folder](src) or by [clicking here](src/TrigReciprocal.java).
 
 ```Java
-TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the trigReciprocal class once once is inside your project.
+TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the trigReciprocal class once once it is inside your project.
 ```
 
 ## trigReciprocal methods
