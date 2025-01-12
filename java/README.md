@@ -12,7 +12,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal(); // One way of getting the 
 
 ### trigReciprocal.csc(double numberInRadians) | Returns a double in radians
 
-Returns the cosecant of a double in radians.
+Returns the cosecant of numberInRadians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
@@ -26,7 +26,7 @@ trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 
 ### trigReciprocal.sec(double numberInRadians) | Returns a double in radians
 
-Returns the secant of a double in radians.
+Returns the secant of numberInRadians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
@@ -40,7 +40,7 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a double.
 
 ### trigReciprocal.cot(double numberInRadians) | Returns a double in radians
 
-Returns the cotangent of a double in radians.
+Returns the cotangent of numberInRadians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 

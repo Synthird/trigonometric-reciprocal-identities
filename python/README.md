@@ -12,7 +12,7 @@ import trig_reciprocal # One way of getting the trig_reciprocal module once it i
 
 ### trig_reciprocal.csc(numberInRadians: float) | Returns a float in radians
 
-Returns the cosecant of a float in radians.
+Returns the cosecant of numberInRadians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
@@ -26,7 +26,7 @@ trig_reciprocal.csc(0.0) # Raises a ValueError due to division by 0.
 
 ### trig_reciprocal.sec(numberInRadians: float) | Returns a float in radians
 
-Returns the secant of a float in radians.
+Returns the secant of numberInRadians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
@@ -40,7 +40,7 @@ trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷
 
 ### trig_reciprocal.cot(numberInRadians: float) | Returns a float in radians
 
-Returns the cotangent of a float in radians.
+Returns the cotangent of numberInRadians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
