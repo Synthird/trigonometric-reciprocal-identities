@@ -8,7 +8,8 @@ You can access the trigReciprocal module in the [src folder](src) or by [clickin
 > The trig_reciprocal module must be inside your project before any methods can be used
 
 ```Python
-import trig_reciprocal # One way of getting the trig_reciprocal module once it is inside your project.
+# One way of getting the trig_reciprocal module inside your project. This requires the module to be in the same folder as the file using this code.
+import trig_reciprocal
 ```
 
 ## trig_reciprocal methods
