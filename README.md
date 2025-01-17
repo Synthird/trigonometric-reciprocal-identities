@@ -5,6 +5,7 @@ Trigonometric reciprocal identity methods that return radians.
 These methods are currently available in:
 
 - [Java](java)
+- [JavaScript](javascript)
 - [Python](python)
 
 ## License
