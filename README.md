@@ -2,6 +2,8 @@
 
 Trigonometric reciprocal identity methods that return radians.
 
+## Available languages
+
 These methods are currently available in:
 
 - [Java](java)
