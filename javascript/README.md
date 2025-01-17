@@ -5,7 +5,7 @@ Trigonometric reciprocal identity methods that return radians as floats.
 You can access the trigReciprocal module in the [src folder](src) or by [clicking here](src/trig-reciprocal.js).
 
 > [!IMPORTANT]
-> The trig-reciprocal module must be inside your project before any methods can be used
+> The trig-reciprocal module must be inside your project before any methods can be used.
 
 ```JavaScript
 // One way of getting the trig-reciprocal module inside your project. This requires the module to be in the same folder as the file using this code.
