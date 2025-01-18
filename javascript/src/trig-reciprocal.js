@@ -2,7 +2,7 @@ let potentialNaN = 0.0;
 
 /**
  * 
- * @param {*} numberInRadians 
+ * @param {number} numberInRadians 
  * @returns The cosecant of numberInRadians.
  */
 export function csc(numberInRadians) {
@@ -12,7 +12,7 @@ export function csc(numberInRadians) {
 
 /**
  * 
- * @param {*} numberInRadians 
+ * @param {number} numberInRadians 
  * @returns The secant of numberInRadians.
  */
 export function sec(numberInRadians) {
@@ -21,7 +21,7 @@ export function sec(numberInRadians) {
 
 /**
  * 
- * @param {*} numberInRadians 
+ * @param {number} numberInRadians 
  * @returns The cotangent of numberInRadians.
  */
 export function cot(numberInRadians) {

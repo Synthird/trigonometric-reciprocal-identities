@@ -1,6 +1,6 @@
 # Trigonometric reciprocal identities in javascript
 
-Trigonometric reciprocal identity methods that return radians as floats.
+Trigonometric reciprocal identity methods that return radians as numbers.
 
 You can access the trigReciprocal module in the [src folder](src) or by [clicking here](src/trig-reciprocal.js).
 
@@ -14,42 +14,42 @@ import * as trigReciprocal from "./trig-reciprocal.js";
 
 ## trig-reciprocal methods
 
-### trigReciprocal.csc(numberInRadians) | Returns a float in radians
+### trigReciprocal.csc(numberInRadians: number) | Returns a number in radians
 
 Returns the cosecant of numberInRadians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
 ```Java
-trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians.
+trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a number.
 ```
 
 ```Java
 trigReciprocal.csc(0.0); // Returns NaN due to division by 0.
 ```
 
-### trigReciprocal.sec(numberInRadians) | Returns a float in radians
+### trigReciprocal.sec(numberInRadians: number) | Returns a number in radians
 
 Returns the secant of numberInRadians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
 ```Java
-trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a float.
+trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a number.
 ```
 
 ```Java
-trigReciprocal.sec(0.0); // Returns 1 radian as a float.
+trigReciprocal.sec(0.0); // Returns 1 radian as a number.
 ```
 
-### trigReciprocal.cot(numberInRadians) | Returns a float in radians
+### trigReciprocal.cot(numberInRadians: number) | Returns a number in radians
 
 Returns the cotangent of numberInRadians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
 ```Java
-trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a float.
+trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a number.
 ```
 
 ```Java
