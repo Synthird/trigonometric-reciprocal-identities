@@ -14,7 +14,7 @@ import * as trigReciprocal  from "./trig-reciprocal.js";
 
 ## trig-reciprocal methods
 
-### trigReciprocal.csc(float numberInRadians) | Returns a float in radians
+### trigReciprocal.csc(numberInRadians) | Returns a float in radians
 
 Returns the cosecant of numberInRadians.
 
@@ -28,7 +28,7 @@ trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians.
 trigReciprocal.csc(0.0); // Returns NaN due to division by 0.
 ```
 
-### trigReciprocal.sec(float numberInRadians) | Returns a float in radians
+### trigReciprocal.sec(numberInRadians) | Returns a float in radians
 
 Returns the secant of numberInRadians.
 
@@ -42,7 +42,7 @@ trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a float.
 trigReciprocal.sec(0.0); // Returns 1 radian as a float.
 ```
 
-### trigReciprocal.cot(float numberInRadians) | Returns a float in radians
+### trigReciprocal.cot(numberInRadians) | Returns a float in radians
 
 Returns the cotangent of numberInRadians.
 
