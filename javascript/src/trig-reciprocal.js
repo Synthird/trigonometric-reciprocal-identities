@@ -1,5 +1,8 @@
+let potentialNaN = 0.0;
+
 export function csc(numberInRadians) {
-	return numberInRadians == 0.0 ? NaN : 1.0 / Math.sin(numberInRadians);
+	potentialNaN = parseFloat(numberInRadians);
+	return potentialNaN === 0.0 || isNaN(potentialNaN) ? NaN : 1.0 / Math.sin(numberInRadians);
 }
 
 export function sec(numberInRadians) {
@@ -7,5 +10,6 @@ export function sec(numberInRadians) {
 }
 
 export function cot(numberInRadians) {
-	return numberInRadians == 0.0 ? NaN : 1.0 / Math.tan(numberInRadians);
+	potentialNaN = parseFloat(numberInRadians);
+	return potentialNaN === 0.0 || isNaN(potentialNaN) ? NaN : 1.0 / Math.tan(numberInRadians);
 }
