@@ -9,14 +9,14 @@ const cotButton = document.getElementById("cot");
 
 enterNumber.focus();
 
-cscButton.onclick = function () {
+cscButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(enterNumber.value);
-}
+})
 
-secButton.onclick = function () {
+secButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.sec(enterNumber.value);
-}
+})
 
-cotButton.onclick = function () {
+cotButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.cot(enterNumber.value);
-}
+})
