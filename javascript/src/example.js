@@ -11,12 +11,12 @@ enterNumber.focus();
 
 cscButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(enterNumber.value);
-})
+});
 
 secButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.sec(enterNumber.value);
-})
+});
 
 cotButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.cot(enterNumber.value);
-})
+});
