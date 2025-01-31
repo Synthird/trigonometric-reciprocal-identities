@@ -14,8 +14,8 @@ public class Example {
 		System.out.println("2 = Secant (sec)");
 		System.out.println("3 = Cotangent (cot)");
 
-		double choice = input_double("Chosen identity");
-		double solving = input_double("Please enter a number into your chosen identity");
+		double choice = inputDouble("Chosen identity");
+		double solving = inputDouble("Please enter a number into your chosen identity");
 
 		printHeading("ANSWER");
 
@@ -49,13 +49,13 @@ public class Example {
 		System.out.println(String.format("%s of %s is %s radian(s)", identityName, askedNumber, answer));
 	}
 
-	private static double input_double(String message) {
-		double inputed_number = 0;
+	private static double inputDouble(String message) {
+		double inputedNumber = 0;
 
 		System.out.print(String.format("%s: ", message));
 
 		try {
-			inputed_number = scanner.nextDouble();
+			inputedNumber = scanner.nextDouble();
 			scanner.nextLine();
 		} catch (InputMismatchException e) {
 			exitWithMessage("Uh oh! You entered something that isn't a number.......");
@@ -63,7 +63,7 @@ public class Example {
 			exitWithMessage("\nYou exited the program!");
 		}
 
-		return inputed_number;
+		return inputedNumber;
 	}
 
 	private static void exitWithMessage(String messsage) {
