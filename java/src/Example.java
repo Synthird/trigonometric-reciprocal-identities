@@ -67,7 +67,7 @@ public class Example {
 	}
 
 	private static void exitWithMessage(String messsage) {
-		System.out.println(messsage);
+		System.err.println(messsage);
 		System.exit(0);
 	}
 }
