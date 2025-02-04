@@ -22,17 +22,17 @@ public class Example {
 		if (choice == 1.0) {
 			double answer = trigReciprocal.csc(solving);
 
-			System.out.println(String.format("csc(%s) = %s", solving, answer));
+			System.out.printf("csc(%s) = %s", solving, answer);
 			printWordAnswer("Cosecant", solving, answer);
 		} else if (choice == 2.0) {
 			double answer = trigReciprocal.sec(solving);
 
-			System.out.println(String.format("sec(%s) = %s", solving, answer));
+			System.out.printf("sec(%s) = %s", solving, answer);
 			printWordAnswer("Secant", solving, answer);
 		} else if (choice == 3.0) {
 			double answer = trigReciprocal.cot(solving);
 
-			System.out.println(String.format("cot(%s) = %s", solving, answer));
+			System.out.printf("cot(%s) = %s", solving, answer);
 			printWordAnswer("Cotangent", solving, answer);
 		} else {
 			System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
