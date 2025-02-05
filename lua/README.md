@@ -23,11 +23,11 @@ Returns the cosecant of numberinradians.
 $csc(number) ={{1} \over {sin(number)}}$
 
 ```Lua
-trigreciprocal.csc(1.0); -- Returns 1.1883951057781212 radians as a number.
+trigreciprocal.csc(1.0) -- Returns 1.1883951057781212 radians as a number.
 ```
 
 ```Lua
-trigreciprocal.csc(0.0); -- Raises an error of attempting to perform csc(0)
+trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0)
 ```
 
 ### trigreciprocal.sec(numberinradians: number) | Returns a number in radians
@@ -37,11 +37,11 @@ Returns the secant of numberinradians.
 $sec(number) ={{1} \over {cos(number)}}$
 
 ```Lua
-trigreciprocal.sec(1.0); -- Returns 1.8508157176809255 radians as a number.
+trigreciprocal.sec(1.0) -- Returns 1.8508157176809255 radians as a number.
 ```
 
 ```Lua
-trigreciprocal.sec(0.0); -- Returns 1 radian as a number.
+trigreciprocal.sec(0.0) -- Returns 1 radian as a number.
 ```
 
 ### trigreciprocal.cot(numberinradians: number) | Returns a number in radians
@@ -51,9 +51,9 @@ Returns the cotangent of numberinradians.
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
 ```Lua
-trigreciprocal.cot(1.0); -- Returns 0.6420926159343306 radians as a number.
+trigreciprocal.cot(1.0) -- Returns 0.6420926159343306 radians as a number.
 ```
 
 ```Lua
-trigreciprocal.cot(0.0); -- Raises an error of attempting to perform cot(0)
+trigreciprocal.cot(0.0) -- Raises an error of attempting to perform cot(0)
 ```
