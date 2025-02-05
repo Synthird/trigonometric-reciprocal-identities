@@ -8,6 +8,7 @@ These methods are currently available in:
 
 - [Java](java)
 - [JavaScript](javascript)
+- [Lua](lua)
 - [Python](python)
 
 ## License
