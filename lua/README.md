@@ -27,7 +27,7 @@ trigreciprocal.csc(1.0) -- Returns 1.1883951057781212 radians as a number.
 ```
 
 ```Lua
-trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0)
+trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0).
 ```
 
 ### trigreciprocal.sec(numberinradians: number) | Returns a number in radians
@@ -55,5 +55,5 @@ trigreciprocal.cot(1.0) -- Returns 0.6420926159343306 radians as a number.
 ```
 
 ```Lua
-trigreciprocal.cot(0.0) -- Raises an error of attempting to perform cot(0)
+trigreciprocal.cot(0.0) -- Raises an error of attempting to perform cot(0).
 ```
