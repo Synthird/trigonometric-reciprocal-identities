@@ -67,6 +67,7 @@ public class Example {
 	}
 
 	private static void exitWithMessage(String messsage) {
+		scanner.close();
 		System.err.println(messsage);
 		System.exit(0);
 	}
