@@ -74,8 +74,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-
 # Distribution / packaging
 .Python
 build/
