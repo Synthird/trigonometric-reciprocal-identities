@@ -7,7 +7,7 @@ Trigonometric reciprocal identity methods that return radians as numbers.
 You can access the trigreciprocal module in the [src folder](src) or by [clicking here](src/trigreciprocal.lua).
 
 > [!IMPORTANT]
-> The trigreciprocal module must be inside your project before any methods can be used.
+> The trigreciprocal module must be inside your project before any of its methods can be used.
 
 ```Lua
 -- One way of getting the trig-reciprocal module inside your project. This requires the module to be in the same folder as the file using this code.
