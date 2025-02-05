@@ -1,5 +1,7 @@
 local trigreciprocal = require("trigreciprocal")
 
+-- This file is an example of using the trigreciprocal module
+
 print(string.format("csc(1) = %s", trigreciprocal.csc(1)))
 print(string.format("sec(1) = %s", trigreciprocal.sec(1)))
 print(string.format("cot(1) = %s", trigreciprocal.cot(1)))
