@@ -12,13 +12,13 @@ const cotButton = document.getElementById("cot");
 enterNumber.focus();
 
 cscButton.addEventListener("click", () => {
-	answer.textContent = trigReciprocal.csc(enterNumber.value);
+	answer.textContent = trigReciprocal.csc(parseFloat(enterNumber.value));
 });
 
 secButton.addEventListener("click", () => {
-	answer.textContent = trigReciprocal.sec(enterNumber.value);
+	answer.textContent = trigReciprocal.sec(parseFloat(enterNumber.value));
 });
 
 cotButton.addEventListener("click", () => {
-	answer.textContent = trigReciprocal.cot(enterNumber.value);
+	answer.textContent = trigReciprocal.cot(parseFloat(enterNumber.value));
 });
