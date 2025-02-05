@@ -1,4 +1,4 @@
-# Trigonometric reciprocal identities in javascript
+# Trigonometric reciprocal identities in JavaScript
 
 Trigonometric reciprocal identity methods that return radians as numbers.
 

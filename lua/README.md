@@ -1,4 +1,4 @@
-# Trigonometric reciprocal identities in lua
+# Trigonometric reciprocal identities in Lua
 
 [![Lua logo](https://www.lua.org/images/lua-logo.gif)](https://lua.org)
 
