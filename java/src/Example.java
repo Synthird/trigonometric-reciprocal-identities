@@ -60,7 +60,7 @@ public class Example {
 		} catch (InputMismatchException e) {
 			exitWithMessage("Uh oh! You entered something that isn't a number.......");
 		} catch (NoSuchElementException e) {
-			exitWithMessage("\nYou exited the program!");
+			exitWithMessage("\nYou exited via keyboard!");
 		}
 
 		return inputedNumber;
