@@ -4,7 +4,6 @@ import trig_reciprocal
 
 number: float = 0.0
 
-
 try:
 	number = float(input("Please enter a number: "))
 
