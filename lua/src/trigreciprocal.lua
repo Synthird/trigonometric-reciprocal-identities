@@ -1,5 +1,6 @@
 local trigreciprocal = {}
 
+---Returns the cosecant of numberinradians
 ---@param numberinradians number
 ---@return number
 function trigreciprocal.csc(numberinradians)
@@ -10,12 +11,14 @@ function trigreciprocal.csc(numberinradians)
 	end
 end
 
+---Returns the secant of numberinradians
 ---@param numberinradians number
 ---@return number
 function trigreciprocal.sec(numberinradians)
 	return 1 / math.cos(numberinradians)
 end
 
+---Returns the cotangent of numberinradians
 ---@param numberinradians number
 ---@return number
 function trigreciprocal.cot(numberinradians)
