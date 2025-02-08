@@ -7,7 +7,7 @@ function trigreciprocal.csc(numberinradians)
 	if numberinradians ~= 0 then
 		return 1 / math.sin(numberinradians)
 	else
-		error("Attempted to perform sin(0)!")
+		error("Attempted to perform sin(0), which is undefined!")
 	end
 end
 
@@ -25,7 +25,7 @@ function trigreciprocal.cot(numberinradians)
 	if numberinradians ~= 0 then
 		return 1 / math.tan(numberinradians)
 	else
-		error("Attempted to perform cot(0)!")
+		error("Attempted to perform cot(0), which is undefined!")
 	end
 end
 
