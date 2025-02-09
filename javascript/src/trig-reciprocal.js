@@ -1,5 +1,4 @@
 /**
- *
  * @param {number} numberInRadians
  * @returns The cosecant of numberInRadians.
  */
@@ -8,7 +7,6 @@ export function csc(numberInRadians) {
 }
 
 /**
- *
  * @param {number} numberInRadians
  * @returns The secant of numberInRadians.
  */
@@ -17,7 +15,6 @@ export function sec(numberInRadians) {
 }
 
 /**
- *
  * @param {number} numberInRadians
  * @returns The cotangent of numberInRadians.
  */
