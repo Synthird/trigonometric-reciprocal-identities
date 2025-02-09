@@ -19,7 +19,7 @@ import trig_reciprocal
 - The reciprocal of sin.
 - Returns the cosecant of angle_in_radians.
 
-$csc(number) ={{1} \over {sin(number)}}$
+$csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Python
 trig_reciprocal.csc(1.0) # Returns 1.1883951057781212 radians as a float.
@@ -34,7 +34,7 @@ trig_reciprocal.csc(0.0) # Raises a ZeroDivisionError.
 - The reciprocal of cos.
 - Returns the secant of angle_in_radians.
 
-$sec(number) ={{1} \over {cos(number)}}$
+$sec(angle) ={{1} \over {cos(angle)}}$
 
 ```Python
 trig_reciprocal.sec(1.0) # Returns 1.8508157176809255 radians as a float.
@@ -49,7 +49,7 @@ trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷
 - The reciprocal of tan.
 - Returns the cotangent of angle_in_radians.
 
-$cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
+$cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```Python
 trig_reciprocal.cot(1.0) # Returns 0.6420926159343306 radians as a float.

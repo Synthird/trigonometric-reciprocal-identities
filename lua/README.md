@@ -21,7 +21,7 @@ local trigreciprocal = require("trigreciprocal")
 - The reciprocal of sin.
 - Returns the cosecant of angleinradians.
 
-$csc(number) ={{1} \over {sin(number)}}$
+$csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Lua
 trigreciprocal.csc(1.0) -- Returns 1.1883951057781212 radians as a number.
@@ -36,7 +36,7 @@ trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0).
 - The reciprocal of cos.
 - Returns the secant of angleinradians.
 
-$sec(number) ={{1} \over {cos(number)}}$
+$sec(angle) ={{1} \over {cos(angle)}}$
 
 ```Lua
 trigreciprocal.sec(1.0) -- Returns 1.8508157176809255 radians as a number.
@@ -51,7 +51,7 @@ trigreciprocal.sec(0.0) -- Returns 1 radian as a number.
 - The reciprocal of tan.
 - Returns the cotangent of angleinradians.
 
-$cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
+$cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```Lua
 trigreciprocal.cot(1.0) -- Returns 0.6420926159343306 radians as a number.

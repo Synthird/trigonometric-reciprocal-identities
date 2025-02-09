@@ -19,7 +19,7 @@ TrigReciprocal trigReciprocal = new TrigReciprocal();
 - The reciprocal of sin.
 - Returns the cosecant of angleInRadians.
 
-$csc(number) ={{1} \over {sin(number)}}$
+$csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Java
 trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
@@ -34,7 +34,7 @@ trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 - The reciprocal of cos.
 - Returns the secant of angleInRadians.
 
-$sec(number) ={{1} \over {cos(number)}}$
+$sec(angle) ={{1} \over {cos(angle)}}$
 
 ```Java
 trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
@@ -49,7 +49,7 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a double.
 - The reciprocal of tan.
 - Returns the cotangent of angleInRadians.
 
-$cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
+$cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```Java
 trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
