@@ -1,6 +1,6 @@
 import trig_reciprocal
 
-# This file is an example of using the trig_reciprocal methods.
+# This file is an example of using the trig_reciprocal functions.
 
 number: float = 0.0
 
