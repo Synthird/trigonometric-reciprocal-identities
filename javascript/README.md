@@ -16,7 +16,8 @@ import * as trigReciprocal from "./trig-reciprocal.js";
 
 ### trigReciprocal.csc(angleInRadians: number) | Returns a number in radians
 
-Returns the cosecant of angleInRadians.
+- The reciprocal of sin.
+- Returns the cosecant of angleInRadians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
@@ -30,7 +31,8 @@ trigReciprocal.csc(0.0); // Returns NaN due to division by 0.
 
 ### trigReciprocal.sec(angleInRadians: number) | Returns a number in radians
 
-Returns the secant of angleInRadians.
+- The reciprocal of cos.
+- Returns the secant of angleInRadians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
@@ -44,7 +46,8 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a number.
 
 ### trigReciprocal.cot(angleInRadians: number) | Returns a number in radians
 
-Returns the cotangent of angleInRadians.
+- The reciprocal of tan.
+- Returns the cotangent of angleInRadians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
