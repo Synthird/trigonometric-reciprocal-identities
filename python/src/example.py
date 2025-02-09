@@ -7,9 +7,9 @@ number: float = 0.0
 try:
 	number = float(input("Please enter a number: "))
 
-	print(f"csc(1) = {trig_reciprocal.csc(number)} radians")
-	print(f"sec(1) = {trig_reciprocal.sec(number)} radians")
-	print(f"cot(1) = {trig_reciprocal.cot(number)} radians")
+	print(f"csc({number}) = {trig_reciprocal.csc(number)} radians")
+	print(f"sec({number}) = {trig_reciprocal.sec(number)} radians")
+	print(f"cot({number}) = {trig_reciprocal.cot(number)} radians")
 except ZeroDivisionError:
 	print("csc(0) and cot(0) are undefined!")
 except ValueError:
