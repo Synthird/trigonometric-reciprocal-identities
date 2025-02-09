@@ -50,12 +50,12 @@ public class Example {
 	}
 
 	private static double inputDouble(String message) {
-		double inputedNumber = 0;
+		double inputNumber = 0;
 
 		System.out.print(String.format("%s: ", message));
 
 		try {
-			inputedNumber = scanner.nextDouble();
+			inputNumber = scanner.nextDouble();
 			scanner.nextLine();
 		} catch (InputMismatchException e) {
 			exitWithMessage("Uh oh! You entered something that isn't a number.......");
@@ -63,7 +63,7 @@ public class Example {
 			exitWithMessage("\nYou exited via keyboard!");
 		}
 
-		return inputedNumber;
+		return inputNumber;
 	}
 
 	private static void exitWithMessage(String messsage) {
