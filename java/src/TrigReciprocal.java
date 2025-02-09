@@ -16,7 +16,9 @@
  */
 public class TrigReciprocal {
 	/**
-	 * @param angleInRadians A number in radians.
+	 * The reciprocal of sin.
+	 * 
+	 * @param angleInRadians An angle in radians.
 	 * @return The cosecant of angleInRadians.
 	 */
 	public double csc(double angleInRadians) {
@@ -24,7 +26,9 @@ public class TrigReciprocal {
 	}
 
 	/**
-	 * @param angleInRadians A number in radians.
+	 * The reciprocal of cos.
+	 * 
+	 * @param angleInRadians An angle in radians.
 	 * @return The secant of angleInRadians.
 	 */
 	public double sec(double angleInRadians) {
@@ -32,7 +36,9 @@ public class TrigReciprocal {
 	}
 
 	/**
-	 * @param angleInRadians A number in radians.
+	 * The reciprocal of tan.
+	 * 
+	 * @param angleInRadians An angle in radians.
 	 * @return The cotangent of angleInRadians.
 	 */
 	public double cot(double angleInRadians) {

@@ -16,7 +16,9 @@
  */
 
 /**
- * @param {number} angleInRadians A number in radians.
+ * The reciprocal of sin.
+ * 
+ * @param {number} angleInRadians An angle in radians.
  * @returns {number} The cosecant of angleInRadians.
  */
 export function csc(angleInRadians) {
@@ -24,7 +26,9 @@ export function csc(angleInRadians) {
 }
 
 /**
- * @param {number} angleInRadians A number in radians.
+ * The reciprocal of cos.
+ * 
+ * @param {number} angleInRadians An angle in radians.
  * @returns {number} The secant of angleInRadians.
  */
 export function sec(angleInRadians) {
@@ -32,7 +36,9 @@ export function sec(angleInRadians) {
 }
 
 /**
- * @param {number} angleInRadians A number in radians.
+ * The reciprocal of tan.
+ * 
+ * @param {number} angleInRadians An angle in radians.
  * @returns {number} The cotangent of angleInRadians.
  */
 export function cot(angleInRadians) {

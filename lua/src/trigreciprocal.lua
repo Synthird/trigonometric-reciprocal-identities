@@ -1,8 +1,8 @@
 local trigreciprocal = {}
 
----Returns the cosecant of angleinradians.
----@param angleinradians number
----@return number
+---The reciprocal of sin.
+---@param angleinradians number --An angle in radians.
+---@return number --The cosecant of angleinradians.
 function trigreciprocal.csc(angleinradians)
 	if angleinradians ~= 0 then
 		return 1 / math.sin(angleinradians)
@@ -11,16 +11,16 @@ function trigreciprocal.csc(angleinradians)
 	end
 end
 
----Returns the secant of angleinradians.
----@param angleinradians number
----@return number
+---The reciprocal of cos.
+---@param angleinradians number --An angle in radians.
+---@return number --The secant of angleinradians.
 function trigreciprocal.sec(angleinradians)
 	return 1 / math.cos(angleinradians)
 end
 
----Returns the cotangent of angleinradians.
----@param angleinradians number
----@return number
+---The reciprocal of tan.
+---@param angleinradians number --An angle in radians.
+---@return number --The cotangent of angleinradians.
 function trigreciprocal.cot(angleinradians)
 	if angleinradians ~= 0 then
 		return 1 / math.tan(angleinradians)

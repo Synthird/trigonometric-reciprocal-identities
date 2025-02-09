@@ -13,7 +13,9 @@ import math
 
 def csc(angle_in_radians: float) -> float:
 	"""
-	:param angle_in_radians: A number in radians.
+	The reciprocal of sin.
+	
+	:param angle_in_radians: An angle in radians.
 	:type angle_in_radians: float
 	:return float: The cosecant of angle_in_radians.
 	"""
@@ -22,7 +24,9 @@ def csc(angle_in_radians: float) -> float:
 
 def sec(angle_in_radians: float) -> float:
 	"""
-	:param angle_in_radians: A number in radians.
+	The reciprocal of cos.
+
+	:param angle_in_radians: An angle in radians.
 	:type angle_in_radians: float
 	:return float: The secant of angle_in_radians.
 	"""
@@ -31,7 +35,9 @@ def sec(angle_in_radians: float) -> float:
 
 def cot(angle_in_radians: float) -> float:
 	"""
-	:param angle_in_radians: A number in radians.
+	The reciprocal of tan.
+
+	:param angle_in_radians: An angle in radians.
 	:type angle_in_radians: float
 	:return float: The cotangent of angle_in_radians.
 	"""
