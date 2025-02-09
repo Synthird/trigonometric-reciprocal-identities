@@ -1,10 +1,10 @@
 # Trigonometric reciprocal identities
 
-Trigonometric reciprocal identity methods or functions that return radians.
+Trigonometric reciprocal identity methods and functions that return radians.
 
 ## Available languages
 
-These methods are currently available in:
+These methods and functions are currently available in:
 
 - [Java](java)
 - [JavaScript](javascript)
