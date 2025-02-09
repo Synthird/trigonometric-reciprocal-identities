@@ -14,9 +14,9 @@ TrigReciprocal trigReciprocal = new TrigReciprocal();
 
 ## trigReciprocal methods
 
-### trigReciprocal.csc(double numberInRadians) | Returns a double in radians
+### trigReciprocal.csc(double angleInRadians) | Returns a double in radians
 
-Returns the cosecant of numberInRadians.
+Returns the cosecant of angleInRadians.
 
 $csc(number) ={{1} \over {sin(number)}}$
 
@@ -28,9 +28,9 @@ trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
 trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 ```
 
-### trigReciprocal.sec(double numberInRadians) | Returns a double in radians
+### trigReciprocal.sec(double angleInRadians) | Returns a double in radians
 
-Returns the secant of numberInRadians.
+Returns the secant of angleInRadians.
 
 $sec(number) ={{1} \over {cos(number)}}$
 
@@ -42,9 +42,9 @@ trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
 trigReciprocal.sec(0.0); // Returns 1 radian as a double.
 ```
 
-### trigReciprocal.cot(double numberInRadians) | Returns a double in radians
+### trigReciprocal.cot(double angleInRadians) | Returns a double in radians
 
-Returns the cotangent of numberInRadians.
+Returns the cotangent of angleInRadians.
 
 $cot(number) ={{1} \over {tan(number)}}$ or ${cos(number) \over sin(number)}$
 
