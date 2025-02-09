@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-// This file is an example of using the trigReciprocal methods.
+// This file is an example of using the trigReciprocal class.
 
 public class Example {
 	private static Scanner scanner = new Scanner(System.in);

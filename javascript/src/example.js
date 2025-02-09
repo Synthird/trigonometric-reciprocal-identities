@@ -1,6 +1,6 @@
 import * as trigReciprocal from "./trig-reciprocal.js";
 
-// This file is an example of using the trigReciprocal methods.
+// This file is an example of using the trigReciprocal module.
 
 const enterNumber = document.getElementById("enter-number");
 const answer = document.getElementById("answer");
