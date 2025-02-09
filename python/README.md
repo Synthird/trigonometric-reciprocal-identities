@@ -1,18 +1,18 @@
-# Trigonometric reciprocal identity methods in Python
+# Trigonometric reciprocal identity functions in Python
 
-Trigonometric reciprocal identity methods that return radians as floats.
+Trigonometric reciprocal identity functions that return radians as floats.
 
 You can access the trig_reciprocal module in the [src folder](src) or by [clicking here](src/trig_reciprocal.py).
 
 > [!IMPORTANT]
-> The trig_reciprocal module must be inside your project before any of its methods can be used.
+> The trig_reciprocal module must be inside your project before any of its functions can be used.
 
 ```Python
 # One way of getting the trig_reciprocal module inside your project. This requires the module to be in the same folder as the file using this code.
 import trig_reciprocal
 ```
 
-## trig_reciprocal methods
+## trig_reciprocal functions
 
 ### trig_reciprocal.csc(number_in_radians: float) | Returns a float in radians
 

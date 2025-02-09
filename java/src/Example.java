@@ -46,7 +46,7 @@ public class Example {
 	}
 
 	private static void printWordAnswer(String identityName, double askedNumber, double answer) {
-		System.out.println(String.format("%s of %s is %s radian(s)", identityName, askedNumber, answer));
+		System.out.println(String.format("\n%s of %s is %s radian(s)", identityName, askedNumber, answer));
 	}
 
 	private static double inputDouble(String message) {
