@@ -1,5 +1,5 @@
 """
-Trigonometric reciprocal identity functions. Such as cosecant, secant and cotangent.
+Trigonometric reciprocal identity functions. Such as cosecant, secant, and cotangent.
 
 Functions:
 - csc: The reciprocal of sin.

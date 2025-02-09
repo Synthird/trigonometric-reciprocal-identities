@@ -1,6 +1,6 @@
 /**
  * Trigonometric reciprocal identity methods.
- * Such as cosecant, secant and cotangent.
+ * Such as cosecant, secant, and cotangent.
  * <ul>
  * <li><strong>Methods:</strong>
  * <ul>
