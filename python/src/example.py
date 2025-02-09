@@ -2,10 +2,8 @@ import trig_reciprocal
 
 # This file is an example of using the trig_reciprocal module.
 
-number: float = 0.0
-
 try:
-	number = float(input("Please enter a number: "))
+	number: float = float(input("Please enter a number: "))
 
 	print(f"csc({number}) = {trig_reciprocal.csc(number)} radians")
 	print(f"sec({number}) = {trig_reciprocal.sec(number)} radians")
