@@ -12,11 +12,11 @@
  * </ul>
  * 
  * @author Synthird
- * @version 1.0.0
+ * @version 1.0.1
  */
 public class TrigReciprocal {
 	/**
-	 * @param numberInRadians
+	 * @param numberInRadians A number in radians.
 	 * @return The cosecant of numberInRadians.
 	 */
 	public double csc(double numberInRadians) {
@@ -24,7 +24,7 @@ public class TrigReciprocal {
 	}
 
 	/**
-	 * @param numberInRadians
+	 * @param numberInRadians A number in radians.
 	 * @return The secant of numberInRadians.
 	 */
 	public double sec(double numberInRadians) {
@@ -32,7 +32,7 @@ public class TrigReciprocal {
 	}
 
 	/**
-	 * @param numberInRadians
+	 * @param numberInRadians A number in radians.
 	 * @return The cotangent of numberInRadians.
 	 */
 	public double cot(double numberInRadians) {

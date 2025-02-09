@@ -12,11 +12,11 @@
  * </ul>
  * @module trigReciprocal
  * @author Synthird
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 /**
- * @param {number} numberInRadians
+ * @param {number} numberInRadians A number in radians.
  * @returns {number} The cosecant of numberInRadians.
  */
 export function csc(numberInRadians) {
@@ -24,7 +24,7 @@ export function csc(numberInRadians) {
 }
 
 /**
- * @param {number} numberInRadians
+ * @param {number} numberInRadians A number in radians.
  * @returns {number} The secant of numberInRadians.
  */
 export function sec(numberInRadians) {
@@ -32,7 +32,7 @@ export function sec(numberInRadians) {
 }
 
 /**
- * @param {number} numberInRadians
+ * @param {number} numberInRadians A number in radians.
  * @returns {number} The cotangent of numberInRadians.
  */
 export function cot(numberInRadians) {
