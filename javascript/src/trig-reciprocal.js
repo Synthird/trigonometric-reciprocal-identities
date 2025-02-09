@@ -16,25 +16,25 @@
  */
 
 /**
- * @param {number} numberInRadians A number in radians.
- * @returns {number} The cosecant of numberInRadians.
+ * @param {number} angleInRadians A number in radians.
+ * @returns {number} The cosecant of angleInRadians.
  */
-export function csc(numberInRadians) {
-	return numberInRadians === 0.0 || isNaN(numberInRadians) ? NaN : 1.0 / Math.sin(numberInRadians);
+export function csc(angleInRadians) {
+	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.sin(angleInRadians);
 }
 
 /**
- * @param {number} numberInRadians A number in radians.
- * @returns {number} The secant of numberInRadians.
+ * @param {number} angleInRadians A number in radians.
+ * @returns {number} The secant of angleInRadians.
  */
-export function sec(numberInRadians) {
-	return 1.0 / Math.cos(numberInRadians);
+export function sec(angleInRadians) {
+	return 1.0 / Math.cos(angleInRadians);
 }
 
 /**
- * @param {number} numberInRadians A number in radians.
- * @returns {number} The cotangent of numberInRadians.
+ * @param {number} angleInRadians A number in radians.
+ * @returns {number} The cotangent of angleInRadians.
  */
-export function cot(numberInRadians) {
-	return numberInRadians === 0.0 || isNaN(numberInRadians) ? NaN : 1.0 / Math.tan(numberInRadians);
+export function cot(angleInRadians) {
+	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tan(angleInRadians);
 }

@@ -16,26 +16,26 @@
  */
 public class TrigReciprocal {
 	/**
-	 * @param numberInRadians A number in radians.
-	 * @return The cosecant of numberInRadians.
+	 * @param angleInRadians A number in radians.
+	 * @return The cosecant of angleInRadians.
 	 */
-	public double csc(double numberInRadians) {
-		return numberInRadians == 0.0 ? Double.NaN : 1.0 / Math.sin(numberInRadians);
+	public double csc(double angleInRadians) {
+		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.sin(angleInRadians);
 	}
 
 	/**
-	 * @param numberInRadians A number in radians.
-	 * @return The secant of numberInRadians.
+	 * @param angleInRadians A number in radians.
+	 * @return The secant of angleInRadians.
 	 */
-	public double sec(double numberInRadians) {
-		return 1.0 / Math.cos(numberInRadians);
+	public double sec(double angleInRadians) {
+		return 1.0 / Math.cos(angleInRadians);
 	}
 
 	/**
-	 * @param numberInRadians A number in radians.
-	 * @return The cotangent of numberInRadians.
+	 * @param angleInRadians A number in radians.
+	 * @return The cotangent of angleInRadians.
 	 */
-	public double cot(double numberInRadians) {
-		return numberInRadians == 0.0 ? Double.NaN : 1.0 / Math.tan(numberInRadians);
+	public double cot(double angleInRadians) {
+		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tan(angleInRadians);
 	}
 }
