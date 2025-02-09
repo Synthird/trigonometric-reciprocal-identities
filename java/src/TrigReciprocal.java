@@ -1,3 +1,19 @@
+/**
+ * Trigonometric reciprocal identity methods.
+ * Such as cosecant, secant and cotangent.
+ * <ul>
+ * <li><strong>Methods:</strong>
+ * <ul>
+ * <li>csc: The reciprocal of sin.</li>
+ * <li>sec: The reciprocal of cos.</li>
+ * <li>cot: The reciprocal of cot.</li>
+ * </ul>
+ * </li>
+ * </ul>
+ * 
+ * @author Synthird
+ * @version 1.0.0
+ */
 public class TrigReciprocal {
 	/**
 	 * @param numberInRadians

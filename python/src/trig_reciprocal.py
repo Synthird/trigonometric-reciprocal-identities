@@ -1,3 +1,12 @@
+"""
+Trigonometric reciprocal identity functions. Such as cosecant, secant and cotangent.
+
+Functions:
+- csc: The reciprocal of sin.
+- sec: The reciprocal of cos.
+- cot: The reciprocal of tan.
+"""
+
 import math
 
 
