@@ -16,8 +16,9 @@ import trig_reciprocal
 
 ### trig_reciprocal.csc(angle_in_radians: float) | Returns a float in radians
 
-- The reciprocal of sin.
-- Returns the cosecant of angle_in_radians.
+The reciprocal of sin.
+
+**Returns:** The cosecant of angle_in_radians.
 
 $csc(angle) ={{1} \over {sin(angle)}}$
 
@@ -31,8 +32,9 @@ trig_reciprocal.csc(0.0) # Raises a ZeroDivisionError.
 
 ### trig_reciprocal.sec(angle_in_radians: float) | Returns a float in radians
 
-- The reciprocal of cos.
-- Returns the secant of angle_in_radians.
+The reciprocal of cos.
+
+**Returns:** The secant of angle_in_radians.
 
 $sec(angle) ={{1} \over {cos(angle)}}$
 
@@ -46,8 +48,9 @@ trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷
 
 ### trig_reciprocal.cot(angle_in_radians: float) | Returns a float in radians
 
-- The reciprocal of tan.
-- Returns the cotangent of angle_in_radians.
+The reciprocal of tan.
+
+**Returns:** The cotangent of angle_in_radians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 

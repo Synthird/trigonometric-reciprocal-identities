@@ -16,8 +16,9 @@ TrigReciprocal trigReciprocal = new TrigReciprocal();
 
 ### trigReciprocal.csc(double angleInRadians) | Returns a double in radians
 
-- The reciprocal of sin.
-- Returns the cosecant of angleInRadians.
+The reciprocal of sin.
+
+**Returns:** The cosecant of angleInRadians.
 
 $csc(angle) ={{1} \over {sin(angle)}}$
 
@@ -31,8 +32,9 @@ trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 
 ### trigReciprocal.sec(double angleInRadians) | Returns a double in radians
 
-- The reciprocal of cos.
-- Returns the secant of angleInRadians.
+The reciprocal of cos.
+
+**Returns:** The secant of angleInRadians.
 
 $sec(angle) ={{1} \over {cos(angle)}}$
 
@@ -47,7 +49,7 @@ trigReciprocal.sec(0.0); // Returns 1 radian as a double.
 ### trigReciprocal.cot(double angleInRadians) | Returns a double in radians
 
 - The reciprocal of tan.
-- Returns the cotangent of angleInRadians.
+- **Returns:** The cotangent of angleInRadians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 

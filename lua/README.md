@@ -18,8 +18,9 @@ local trigreciprocal = require("trigreciprocal")
 
 ### trigreciprocal.csc(angleinradians: number) | Returns a number in radians
 
-- The reciprocal of sin.
-- Returns the cosecant of angleinradians.
+The reciprocal of sin.
+
+**Returns:** The cosecant of angleinradians.
 
 $csc(angle) ={{1} \over {sin(angle)}}$
 
@@ -33,8 +34,9 @@ trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0).
 
 ### trigreciprocal.sec(angleinradians: number) | Returns a number in radians
 
-- The reciprocal of cos.
-- Returns the secant of angleinradians.
+The reciprocal of cos.
+
+**Returns:** The secant of angleinradians.
 
 $sec(angle) ={{1} \over {cos(angle)}}$
 
@@ -48,8 +50,9 @@ trigreciprocal.sec(0.0) -- Returns 1 radian as a number.
 
 ### trigreciprocal.cot(angleinradians: number) | Returns a number in radians
 
-- The reciprocal of tan.
-- Returns the cotangent of angleinradians.
+The reciprocal of tan.
+
+**Returns:** The cotangent of angleinradians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
