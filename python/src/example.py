@@ -5,9 +5,9 @@ import trig_reciprocal
 try:
 	number: float = float(input("Please enter a number: "))
 
-	print(f"csc({number}) = {trig_reciprocal.csc(number)} radians")
-	print(f"sec({number}) = {trig_reciprocal.sec(number)} radians")
-	print(f"cot({number}) = {trig_reciprocal.cot(number)} radians")
+	print(f"sec({number}) = {trig_reciprocal.sec(number)} radian(s)")
+	print(f"csc({number}) = {trig_reciprocal.csc(number)} radian(s)")
+	print(f"cot({number}) = {trig_reciprocal.cot(number)} radian(s)")
 except ZeroDivisionError:
 	print("csc(0) and cot(0) are undefined!")
 except ValueError:
