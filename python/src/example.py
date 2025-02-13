@@ -2,15 +2,29 @@ import trig_reciprocal
 
 # This file is an example of using the trig_reciprocal module.
 
-try:
-	number: float = float(input("Please enter a number: "))
+number: float = 0
 
-	print(f"sec({number}) = {trig_reciprocal.sec(number)} radian(s)")
+
+def exit_with_message(message: str) -> None:
+	print(message)
+	raise SystemExit
+
+
+try:
+	number = float(input("Please enter a number: "))
+except KeyboardInterrupt:
+	exit_with_message("\nYou exited via keyboard!")
+except ValueError:
+	exit_with_message("You didn't enter a number....")
+
+print(f"sec({number}) = {trig_reciprocal.sec(number)} radian(s)")
+
+try:
 	print(f"csc({number}) = {trig_reciprocal.csc(number)} radian(s)")
+except ZeroDivisionError:
+	print("csc(0) = undefined!")
+
+try:
 	print(f"cot({number}) = {trig_reciprocal.cot(number)} radian(s)")
 except ZeroDivisionError:
-	print("csc(0) and cot(0) are undefined!")
-except ValueError:
-	print("You didn't enter a number....")
-except KeyboardInterrupt:
-	print("\nYou exited via keyboard!")
+	print("cot(0) = undefined!")
