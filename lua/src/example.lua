@@ -9,7 +9,7 @@ print(string.format("cot(1) = %s", trigreciprocal.cot(1)))
 print("--- 0 as the parameter ---")
 
 local cosecant_zero = pcall(trigreciprocal.csc, trigreciprocal, 0)
-local cotangent_zero = pcall(trigreciprocal.csc, trigreciprocal, 0)
+local cotangent_zero = pcall(trigreciprocal.cot, trigreciprocal, 0)
 
 print(string.format("sec(0) = %s", trigreciprocal.sec(0)))
 
