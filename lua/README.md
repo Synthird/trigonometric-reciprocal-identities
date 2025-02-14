@@ -16,11 +16,11 @@ local trigreciprocal = require("trigreciprocal")
 
 ## trigreciprocal functions
 
-### trigreciprocal.csc(angleinradians: number) | Returns a number in radians
+### trigreciprocal.csc(angleinradians: number) | Returns a number
 
 The reciprocal of sin.
 
-**Returns:** The cosecant of angleinradians.
+**Returns:** The cosecant of angleinradians in radians.
 
 $csc(angle) ={{1} \over {sin(angle)}}$
 
@@ -32,11 +32,11 @@ trigreciprocal.csc(1.0) -- Returns 1.1883951057781212 radians as a number.
 trigreciprocal.csc(0.0) -- Raises an error of attempting to perform csc(0).
 ```
 
-### trigreciprocal.sec(angleinradians: number) | Returns a number in radians
+### trigreciprocal.sec(angleinradians: number) | Returns a number
 
 The reciprocal of cos.
 
-**Returns:** The secant of angleinradians.
+**Returns:** The secant of angleinradians in radians.
 
 $sec(angle) ={{1} \over {cos(angle)}}$
 
@@ -48,11 +48,11 @@ trigreciprocal.sec(1.0) -- Returns 1.8508157176809255 radians as a number.
 trigreciprocal.sec(0.0) -- Returns 1 radian as a number.
 ```
 
-### trigreciprocal.cot(angleinradians: number) | Returns a number in radians
+### trigreciprocal.cot(angleinradians: number) | Returns a number
 
 The reciprocal of tan.
 
-**Returns:** The cotangent of angleinradians.
+**Returns:** The cotangent of angleinradians in radians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 

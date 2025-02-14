@@ -19,7 +19,7 @@
  * The reciprocal of sin.
  * 
  * @param {number} angleInRadians An angle in radians.
- * @returns {number} The cosecant of angleInRadians.
+ * @returns {number} The cosecant of angleInRadians in radians.
  */
 export function csc(angleInRadians) {
 	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.sin(angleInRadians);
@@ -29,7 +29,7 @@ export function csc(angleInRadians) {
  * The reciprocal of cos.
  * 
  * @param {number} angleInRadians An angle in radians.
- * @returns {number} The secant of angleInRadians.
+ * @returns {number} The secant of angleInRadians in radians.
  */
 export function sec(angleInRadians) {
 	return 1.0 / Math.cos(angleInRadians);
@@ -39,7 +39,7 @@ export function sec(angleInRadians) {
  * The reciprocal of tan.
  * 
  * @param {number} angleInRadians An angle in radians.
- * @returns {number} The cotangent of angleInRadians.
+ * @returns {number} The cotangent of angleInRadians in radians.
  */
 export function cot(angleInRadians) {
 	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tan(angleInRadians);

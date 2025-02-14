@@ -14,11 +14,11 @@ TrigReciprocal trigReciprocal = new TrigReciprocal();
 
 ## trigReciprocal methods
 
-### trigReciprocal.csc(double angleInRadians) | Returns a double in radians
+### trigReciprocal.csc(double angleInRadians) | Returns a double
 
 The reciprocal of sin.
 
-**Returns:** The cosecant of angleInRadians.
+**Returns:** The cosecant of angleInRadians in radians.
 
 $csc(angle) ={{1} \over {sin(angle)}}$
 
@@ -30,11 +30,11 @@ trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
 trigReciprocal.csc(0.0); // Returns Double.NaN due to division by 0.
 ```
 
-### trigReciprocal.sec(double angleInRadians) | Returns a double in radians
+### trigReciprocal.sec(double angleInRadians) | Returns a double
 
 The reciprocal of cos.
 
-**Returns:** The secant of angleInRadians.
+**Returns:** The secant of angleInRadians in radians.
 
 $sec(angle) ={{1} \over {cos(angle)}}$
 
@@ -46,10 +46,10 @@ trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
 trigReciprocal.sec(0.0); // Returns 1 radian as a double.
 ```
 
-### trigReciprocal.cot(double angleInRadians) | Returns a double in radians
+### trigReciprocal.cot(double angleInRadians) | Returns a double
 
 - The reciprocal of tan.
-- **Returns:** The cotangent of angleInRadians.
+- **Returns:** The cotangent of angleInRadians in radians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 

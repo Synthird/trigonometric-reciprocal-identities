@@ -19,7 +19,7 @@ public class TrigReciprocal {
 	 * The reciprocal of sin.
 	 * 
 	 * @param angleInRadians An angle in radians.
-	 * @return The cosecant of angleInRadians.
+	 * @return The cosecant of angleInRadians in radians.
 	 */
 	public double csc(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.sin(angleInRadians);
@@ -29,7 +29,7 @@ public class TrigReciprocal {
 	 * The reciprocal of cos.
 	 * 
 	 * @param angleInRadians An angle in radians.
-	 * @return The secant of angleInRadians.
+	 * @return The secant of angleInRadians in radians.
 	 */
 	public double sec(double angleInRadians) {
 		return 1.0 / Math.cos(angleInRadians);
@@ -39,7 +39,7 @@ public class TrigReciprocal {
 	 * The reciprocal of tan.
 	 * 
 	 * @param angleInRadians An angle in radians.
-	 * @return The cotangent of angleInRadians.
+	 * @return The cotangent of angleInRadians in radians.
 	 */
 	public double cot(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tan(angleInRadians);
