@@ -6,6 +6,9 @@ Functions:
 - csc: The reciprocal of sin.
 - sec: The reciprocal of cos.
 - cot: The reciprocal of tan.
+
+:Version: 1.0.0
+:Authors: Synthird
 """
 
 import math
