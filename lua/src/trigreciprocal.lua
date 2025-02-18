@@ -1,3 +1,12 @@
+---Trigonometric reciprocal identities.
+---Such as cosecant, secant, and cotangent.
+---**Functions:**
+--- csc: The reciprocal of sin.
+--- sec: The reciprocal of cos.
+--- cot: The reciprocal of tan.
+--- @module "trigreciprocal"
+--- @author Synthird
+--- @version 1.0.0
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
