@@ -10,7 +10,8 @@ You can access the trigreciprocal module in the [src folder](src) or by [clickin
 > The trigreciprocal module must be inside your project before any of its functions can be used.
 
 ```Lua
--- One way of getting the trigreciprocal module inside your project. This requires the module to be in the same folder as the file using this code.
+-- One way of getting the trigreciprocal module inside your project.
+-- This requires the module to be in the same folder as the file using this code.
 local trigreciprocal = require("trigreciprocal")
 ```
 

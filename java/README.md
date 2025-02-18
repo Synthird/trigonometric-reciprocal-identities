@@ -8,7 +8,8 @@ You can access the trigReciprocal class in the [src folder](src) or by [clicking
 > The trigReciprocal class must be inside your project before any of its methods can be used.
 
 ```Java
-// One way of getting the trigReciprocal class inside your project. This requires the class to be in the same folder as the file using this code.
+// One way of getting the trigReciprocal class inside your project.
+// This requires the class to be in the same folder as the file using this code.
 TrigReciprocal trigReciprocal = new TrigReciprocal();
 ```
 
