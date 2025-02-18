@@ -1,29 +1,29 @@
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
----@param angleinradians number --An angle in radians.
----@return number --The cosecant of angleinradians in radians.
-function trigreciprocal.csc(angleinradians)
-	if angleinradians ~= 0 then
-		return 1 / math.sin(angleinradians)
+---@param angle_in_radians number --An angle in radians.
+---@return number --The cosecant of angle_in_radians in radians.
+function trigreciprocal.csc(angle_in_radians)
+	if angle_in_radians ~= 0 then
+		return 1 / math.sin(angle_in_radians)
 	else
 		error("Attempted to perform sin(0), which is undefined!")
 	end
 end
 
 ---The reciprocal of cos.
----@param angleinradians number --An angle in radians.
----@return number --The secant of angleinradians in radians.
-function trigreciprocal.sec(angleinradians)
-	return 1 / math.cos(angleinradians)
+---@param angle_in_radians number --An angle in radians.
+---@return number --The secant of angle_in_radians in radians.
+function trigreciprocal.sec(angle_in_radians)
+	return 1 / math.cos(angle_in_radians)
 end
 
 ---The reciprocal of tan.
----@param angleinradians number --An angle in radians.
----@return number --The cotangent of angleinradians in radians.
-function trigreciprocal.cot(angleinradians)
-	if angleinradians ~= 0 then
-		return 1 / math.tan(angleinradians)
+---@param angle_in_radians number --An angle in radians.
+---@return number --The cotangent of angle_in_radians in radians.
+function trigreciprocal.cot(angle_in_radians)
+	if angle_in_radians ~= 0 then
+		return 1 / math.tan(angle_in_radians)
 	else
 		error("Attempted to perform cot(0), which is undefined!")
 	end
