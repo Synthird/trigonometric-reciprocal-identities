@@ -10,6 +10,7 @@
  * 		</ul>
  * 	</li>
  * </ul>
+ * 
  * @module trigReciprocal
  * @author Synthird
  * @version 1.0.2
