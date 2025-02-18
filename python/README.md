@@ -21,6 +21,8 @@ The reciprocal of sin.
 
 **Returns:** The cosecant of angle_in_radians in radians.
 
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
 $csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Python
@@ -52,6 +54,8 @@ trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷
 The reciprocal of tan.
 
 **Returns:** The cotangent of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
