@@ -15,7 +15,7 @@ try:
 except KeyboardInterrupt:
 	exit_with_message("\nYou exited via keyboard!")
 except ValueError:
-	exit_with_message("You didn't enter a number....")
+	exit_with_message("Whoops! You didn't enter a number....")
 
 try:
 	print(f"csc({number}) = {trig_reciprocal.csc(number)} radian(s)")
