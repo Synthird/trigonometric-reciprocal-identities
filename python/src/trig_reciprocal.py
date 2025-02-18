@@ -21,6 +21,7 @@ def csc(angle_in_radians: float) -> float:
 	:param angle_in_radians: An angle in radians.
 	:type angle_in_radians: float
 	:return float: The cosecant of angle_in_radians in radians.
+	:raises ZeroDivisionError: If angle_in_radians is 0.
 	"""
 	return 1.0 / math.sin(angle_in_radians)
 
@@ -43,5 +44,6 @@ def cot(angle_in_radians: float) -> float:
 	:param angle_in_radians: An angle in radians.
 	:type angle_in_radians: float
 	:return float: The cotangent of angle_in_radians in radians.
+	:raises ZeroDivisionError: If angle_in_radians is 0.
 	"""
 	return 1.0 / math.tan(angle_in_radians)
