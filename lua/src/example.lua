@@ -11,11 +11,11 @@ print("--- 0 as the parameter ---")
 local cosecant_zero = pcall(trigreciprocal.csc, trigreciprocal, 0)
 local cotangent_zero = pcall(trigreciprocal.cot, trigreciprocal, 0)
 
-print(string.format("sec(0) = %s", trigreciprocal.sec(0)))
-
 if type(cosecant_zero) ~= "number" then
 	print("csc(0) = undefined!")
 end
+
+print(string.format("sec(0) = %s", trigreciprocal.sec(0)))
 
 if type(cotangent_zero) ~= "number" then
 	print("cot(0) = undefined!")
