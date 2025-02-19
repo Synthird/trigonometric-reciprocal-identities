@@ -58,17 +58,14 @@ public class Example {
 			inputNumber = scanner.nextDouble();
 			scanner.nextLine();
 		} catch (InputMismatchException e) {
-			exitWithMessage("Uh oh! You entered something that isn't a number.......");
+			System.err.println("Uh oh! You entered something that isn't a number.......");
 		} catch (NoSuchElementException e) {
-			exitWithMessage("\nYou exited via keyboard!");
+			System.err.println("\nYou exited via keyboard!");
+		} finally {
+			scanner.close();
+			System.exit(0);
 		}
 
 		return inputNumber;
-	}
-
-	private static void exitWithMessage(String messsage) {
-		scanner.close();
-		System.err.println(messsage);
-		System.exit(0);
 	}
 }
