@@ -8,7 +8,7 @@ You can access the trigReciprocal module in the [src folder](src) or by [clickin
 > The trigReciprocal module must be inside your project before any of its methods can be used.
 
 ```JavaScript
-// One way of getting the trig-reciprocal module inside your project.
+// One way of accessing the functions in the trig-reciprocal module.
 // This requires the module to be in the same folder as the file using this code.
 import * as trigReciprocal from "./trig-reciprocal.js";
 ```
