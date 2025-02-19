@@ -5,10 +5,10 @@
 --- csc: The reciprocal of sin.
 --- sec: The reciprocal of cos.
 --- cot: The reciprocal of tan.
---- 
---- @module "trigreciprocal"
---- @author Synthird
---- @version 1.0.1
+---
+---@module "trigreciprocal"
+---@author Synthird
+---@version 1.0.1
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
