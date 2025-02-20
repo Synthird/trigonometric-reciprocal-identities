@@ -1,4 +1,4 @@
----Trigonometric reciprocal identities.
+---Trigonometric reciprocal identity functions.
 ---Such as cosecant, secant, and cotangent.
 ---
 ---**Functions:**

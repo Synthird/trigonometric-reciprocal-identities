@@ -1,5 +1,5 @@
 /**
- * Trigonometric reciprocal identities.
+ * Trigonometric reciprocal identity methods.
  * Such as cosecant, secant, and cotangent.
  * <ul>
  * 	<li><strong>Methods:</strong>
@@ -13,7 +13,7 @@
  * 
  * @module trigReciprocal
  * @author Synthird
- * @version 1.0.2
+ * @version 1.0.3
  */
 
 /**
