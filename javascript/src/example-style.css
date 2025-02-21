@@ -1,0 +1,15 @@
+/* Modifying multiple elements */
+
+body, input, button {
+	font-size: large;
+}
+
+/* Modifying individual elements */
+
+body {
+	text-align: center;
+}
+
+input {
+	margin-bottom: 1em;
+}
