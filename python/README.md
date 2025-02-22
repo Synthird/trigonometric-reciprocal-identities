@@ -13,7 +13,7 @@ You can access the trig_reciprocal module in the [src folder](src) or by [clicki
 import trig_reciprocal
 ```
 
-## trig_reciprocal functions
+## Functions
 
 ### trig_reciprocal.csc(angle_in_radians: float) | Returns a float
 

@@ -13,7 +13,7 @@ You can access the trigReciprocal module in the [src folder](src) or by [clickin
 import * as trigReciprocal from "./trig-reciprocal.js";
 ```
 
-## trigReciprocal methods
+## Methods
 
 ### trigReciprocal.csc(angleInRadians: number) | Returns a number
 

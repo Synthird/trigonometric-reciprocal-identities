@@ -13,7 +13,7 @@ You can access the trigReciprocal class in the [src folder](src) or by [clicking
 TrigReciprocal trigReciprocal = new TrigReciprocal();
 ```
 
-## trigReciprocal methods
+## Methods
 
 ### trigReciprocal.csc(double angleInRadians) | Returns a double
 

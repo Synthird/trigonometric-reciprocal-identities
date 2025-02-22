@@ -15,7 +15,7 @@ You can access the trigreciprocal module in the [src folder](src) or by [clickin
 local trigreciprocal = require("trigreciprocal")
 ```
 
-## trigreciprocal functions
+## Functions
 
 ### trigreciprocal.csc(angle_in_radians: number) | Returns a number
 
