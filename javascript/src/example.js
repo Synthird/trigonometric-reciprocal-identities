@@ -9,8 +9,6 @@ const cscButton = document.getElementById("csc");
 const secButton = document.getElementById("sec");
 const cotButton = document.getElementById("cot");
 
-enterNumber.focus();
-
 cscButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(parseFloat(enterNumber.value));
 });
