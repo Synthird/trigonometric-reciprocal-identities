@@ -8,7 +8,7 @@
 ---
 ---@module "trigreciprocal"
 ---@author Synthird
----@version 1.0.2
+---@version 1.0.0
 local trigreciprocal = {}
 
 ---The reciprocal of sin.

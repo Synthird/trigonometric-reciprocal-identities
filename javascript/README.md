@@ -2,13 +2,13 @@
 
 Trigonometric reciprocal identity methods that return radians as numbers.
 
-You can access the trigReciprocal module in the [src folder](src) or by [clicking here](src/trig-reciprocal.js).
+## Installation
 
-> [!IMPORTANT]
-> The trigReciprocal module must be inside your project before any of its methods can be used.
+1. Download the latest release of the ```trig-reciprocal.js``` module from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+2. Place the module inside your project
 
 ```JavaScript
-// One way of accessing the functions in the trigReciprocal module.
+// One way of accessing the methods in the trigReciprocal module.
 // This requires the module to be in the same folder as the file using this code.
 import * as trigReciprocal from "./trig-reciprocal.js";
 ```

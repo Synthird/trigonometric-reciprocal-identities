@@ -2,10 +2,10 @@
 
 Trigonometric reciprocal identity functions that return radians as floats.
 
-You can access the trig_reciprocal module in the [src folder](src) or by [clicking here](src/trig_reciprocal.py).
+## Installation
 
-> [!IMPORTANT]
-> The trig_reciprocal module must be inside your project before any of its functions can be used.
+1. Download the latest release of the ```trig_reciprocal.py``` module from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+2. Place the module inside your project
 
 ```Python
 # One way of accessing the functions in the trig_reciprocal module.

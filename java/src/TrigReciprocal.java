@@ -12,7 +12,7 @@
  * </ul>
  * 
  * @author Synthird
- * @version 1.0.2
+ * @version 1.0.0
  */
 public class TrigReciprocal {
 	/**

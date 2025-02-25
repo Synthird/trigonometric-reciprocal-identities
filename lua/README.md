@@ -4,10 +4,10 @@
 
 Trigonometric reciprocal identity functions that return radians as numbers.
 
-You can access the trigreciprocal module in the [src folder](src) or by [clicking here](src/trigreciprocal.lua).
+## Installation
 
-> [!IMPORTANT]
-> The trigreciprocal module must be inside your project before any of its functions can be used.
+1. Download the latest release of the ```trigreciprocal.lua``` module from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+2. Place the module inside your project
 
 ```Lua
 -- One way of accessing the functions in the trigreciprocal module.

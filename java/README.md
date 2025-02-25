@@ -2,10 +2,10 @@
 
 Trigonometric reciprocal identity methods that return radians as doubles.
 
-You can access the trigReciprocal class in the [src folder](src) or by [clicking here](src/TrigReciprocal.java).
+## Installation
 
-> [!IMPORTANT]
-> The trigReciprocal class must be inside your project before any of its methods can be used.
+1. Download the latest release of the ```TrigReciprocal.java``` class from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+2. Place the class inside your project
 
 ```Java
 // One way of accessing the methods in the trigReciprocal class.
