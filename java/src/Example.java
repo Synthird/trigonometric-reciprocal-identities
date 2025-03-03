@@ -20,20 +20,11 @@ public class Example {
 		printHeading("ANSWER");
 
 		if (choice == 1.0) {
-			double answer = trigReciprocal.csc(solving);
-
-			System.out.printf("csc(%s) = %s", solving, answer);
-			printWordAnswer("Cosecant", solving, answer);
+			System.out.printf("csc(%s) = %s", solving, trigReciprocal.csc(solving));
 		} else if (choice == 2.0) {
-			double answer = trigReciprocal.sec(solving);
-
-			System.out.printf("sec(%s) = %s", solving, answer);
-			printWordAnswer("Secant", solving, answer);
+			System.out.printf("sec(%s) = %s", solving, trigReciprocal.sec(solving));
 		} else if (choice == 3.0) {
-			double answer = trigReciprocal.cot(solving);
-
-			System.out.printf("cot(%s) = %s", solving, answer);
-			printWordAnswer("Cotangent", solving, answer);
+			System.out.printf("cot(%s) = %s", solving, trigReciprocal.cot(solving));
 		} else {
 			System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
 		}
@@ -43,10 +34,6 @@ public class Example {
 
 	private static void printHeading(String title) {
 		System.out.println(String.format("--- %s ---", title));
-	}
-
-	private static void printWordAnswer(String identityName, double askedNumber, double answer) {
-		System.out.println(String.format("\n%s of %s is %s radian(s)", identityName, askedNumber, answer));
 	}
 
 	private static double inputDouble(String message) {
