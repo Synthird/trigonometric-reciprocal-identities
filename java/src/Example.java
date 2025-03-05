@@ -15,16 +15,16 @@ public class Example {
 		System.out.println("3 = Cotangent (cot)");
 
 		double choice = inputDouble("Chosen identity");
-		double solving = inputDouble("Please enter a number into your chosen identity");
+		double number = inputDouble("Please enter a number into your chosen identity");
 
 		printHeading("ANSWER");
 
 		if (choice == 1.0) {
-			System.out.printf("csc(%s) = %s", solving, trigReciprocal.csc(solving));
+			System.out.printf("csc(%s) = %s", number, trigReciprocal.csc(number));
 		} else if (choice == 2.0) {
-			System.out.printf("sec(%s) = %s", solving, trigReciprocal.sec(solving));
+			System.out.printf("sec(%s) = %s", number, trigReciprocal.sec(number));
 		} else if (choice == 3.0) {
-			System.out.printf("cot(%s) = %s", solving, trigReciprocal.cot(solving));
+			System.out.printf("cot(%s) = %s", number, trigReciprocal.cot(number));
 		} else {
 			System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
 		}
