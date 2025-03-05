@@ -20,11 +20,11 @@ public class Example {
 		printHeading("ANSWER");
 
 		if (choice == 1.0) {
-			System.out.printf("csc(%s) = %s", number, trigReciprocal.csc(number));
+			System.out.printf("csc(%s) = %s radians", number, trigReciprocal.csc(number));
 		} else if (choice == 2.0) {
-			System.out.printf("sec(%s) = %s", number, trigReciprocal.sec(number));
+			System.out.printf("sec(%s) = %s radians", number, trigReciprocal.sec(number));
 		} else if (choice == 3.0) {
-			System.out.printf("cot(%s) = %s", number, trigReciprocal.cot(number));
+			System.out.printf("cot(%s) = %s radians", number, trigReciprocal.cot(number));
 		} else {
 			System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
 		}
