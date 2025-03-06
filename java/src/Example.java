@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Example {
 	private static Scanner scanner = new Scanner(System.in);
-	private static TrigReciprocal trigReciprocal = new TrigReciprocal();
 
 	public static void main(String[] args) {
 		printHeading("Please choose a trigonometric reciprocal identity");
@@ -20,11 +19,11 @@ public class Example {
 		printHeading("ANSWER");
 
 		if (choice == 1.0) {
-			System.out.printf("csc(%s) = %s radians", number, trigReciprocal.csc(number));
+			System.out.printf("csc(%s) = %s radians", number, TrigReciprocal.csc(number));
 		} else if (choice == 2.0) {
-			System.out.printf("sec(%s) = %s radians", number, trigReciprocal.sec(number));
+			System.out.printf("sec(%s) = %s radians", number, TrigReciprocal.sec(number));
 		} else if (choice == 3.0) {
-			System.out.printf("cot(%s) = %s radians", number, trigReciprocal.cot(number));
+			System.out.printf("cot(%s) = %s radians", number, TrigReciprocal.cot(number));
 		} else {
 			System.out.println("Whoops! You didn't choose a trigonometric reciprocal identity....");
 		}
