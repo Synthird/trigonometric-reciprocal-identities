@@ -8,7 +8,7 @@ Trigonometric reciprocal identity functions that return radians as floats.
 2. Place the module inside your project
 
 ```Python
-# One way of accessing the functions in the trig_reciprocal module.
+# One way to access the functions in the trig_reciprocal module.
 # This requires the module to be in the same folder as the file using this code.
 import trig_reciprocal
 ```

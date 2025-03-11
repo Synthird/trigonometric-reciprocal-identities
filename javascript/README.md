@@ -8,7 +8,7 @@ Trigonometric reciprocal identity methods that return radians as numbers.
 2. Place the module inside your project
 
 ```JavaScript
-// One way of accessing the methods in the trigReciprocal module.
+// One way to access the methods in the trigReciprocal module.
 // This requires the module to be in the same folder as the file using this code.
 import * as trigReciprocal from "./trig-reciprocal.js";
 ```

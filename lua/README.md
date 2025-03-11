@@ -10,7 +10,7 @@ Trigonometric reciprocal identity functions that return radians as numbers.
 2. Place the module inside your project
 
 ```Lua
--- One way of accessing the functions in the trigreciprocal module.
+-- One way to access the functions in the trigreciprocal module.
 -- This requires the module to be in the same folder as the file using this code.
 local trigreciprocal = require("trigreciprocal")
 ```
