@@ -46,7 +46,7 @@ trig_reciprocal.sec(1.0) # Returns 1.8508157176809255 radians as a float.
 ```
 
 ```Python
-trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 ÷ cos(1) is 1 ÷ 1, which is 1.
+trig_reciprocal.sec(0.0) # Returns 1 radian as a float since 1 / cos(0) = 1 / 1, which is 1.
 ```
 
 ### trig_reciprocal.cot(angle_in_radians: float) | Returns a float
