@@ -28,7 +28,7 @@ trigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a number.
 ```
 
 ```JavaScript
-trigReciprocal.csc(0.0); // Returns NaN due to division by 0.
+trigReciprocal.csc(0.0); // Returns NaN since 1 / sin(0) = 1 / 0, which is undefined.
 ```
 
 ### trigReciprocal.sec(angleInRadians: number) | Returns a number
@@ -44,7 +44,7 @@ trigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a number.
 ```
 
 ```JavaScript
-trigReciprocal.sec(0.0); // Returns 1 radian as a number.
+trigReciprocal.sec(0.0); // Returns 1 radian as a number since 1 / cos(0) = 1 / 1, which is 1.
 ```
 
 ### trigReciprocal.cot(angleInRadians: number) | Returns a number
@@ -60,5 +60,5 @@ trigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a number.
 ```
 
 ```JavaScript
-trigReciprocal.cot(0.0); // Returns NaN due to division by 0.
+trigReciprocal.cot(0.0); // Returns NaN since 1 / tan(0) = 1 / 0, which is undefined.
 ```
