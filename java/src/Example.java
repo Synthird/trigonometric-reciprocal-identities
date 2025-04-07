@@ -19,13 +19,13 @@ public class Example {
 			exitWithMessage("Uh oh! You entered something that isn't a number.......");
 		} catch (NoSuchElementException e) {
 			exitWithMessage("\nYou exited via keyboard!");
-		} finally {
-			scanner.close();
 		}
 
 		System.out.println(String.format("csc(%s) = %s radian(s)", number, TrigReciprocal.csc(number)));
 		System.out.println(String.format("sec(%s) = %s radian(s)", number, TrigReciprocal.sec(number)));
 		System.out.println(String.format("cot(%s) = %s radian(s)", number, TrigReciprocal.cot(number)));
+
+		scanner.close();
 	}
 
 	private static void exitWithMessage(String message) {
