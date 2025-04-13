@@ -1,4 +1,4 @@
----Trigonometric reciprocal identity functions.
+---Trigonometric reciprocal identity functions that return radians.
 ---Such as cosecant, secant, and cotangent.
 ---
 ---**Functions:**
