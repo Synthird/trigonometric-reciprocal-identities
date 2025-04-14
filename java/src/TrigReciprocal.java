@@ -14,7 +14,7 @@
  * @author Synthird
  * @version 1.1.1
  */
-public class TrigReciprocal {
+public abstract class TrigReciprocal {
 	/**
 	 * The reciprocal of sin.
 	 * 
