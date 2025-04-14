@@ -43,8 +43,9 @@ TrigReciprocal.sec(0.0); // Returns 1 radian as a double since 1 / cos(0) = 1 / 
 
 ### TrigReciprocal.cot(double angleInRadians) | Returns a double
 
-- The reciprocal of tan.
-- **Returns:** The cotangent of angleInRadians in radians.
+The reciprocal of tan.
+
+**Returns:** The cotangent of angleInRadians in radians.
 
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
