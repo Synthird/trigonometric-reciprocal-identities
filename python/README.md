@@ -4,7 +4,7 @@ Trigonometric reciprocal identity functions that return radians as floats.
 
 ## Installation
 
-1. Download the latest release of the ```trig_reciprocal.py``` module from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+1. Download the latest release of the ```trig_reciprocal.py``` module from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/tag/v1.0.1python)
 2. Place the module inside your project
 
 ```Python

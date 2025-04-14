@@ -4,7 +4,7 @@ Trigonometric reciprocal identity methods that return radians as numbers.
 
 ## Installation
 
-1. Download the latest release of the ```trig-reciprocal.js``` module from the [releases page](https://github.com/Synthird/Trigonometric-reciprocal-identities/releases/latest)
+1. Download the latest release of the ```trig-reciprocal.js``` module from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/tag/v1.0.1javascript)
 2. Place the module inside your project
 
 ```JavaScript
