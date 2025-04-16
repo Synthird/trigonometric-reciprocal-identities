@@ -12,9 +12,19 @@
  * </ul>
  * 
  * @author Synthird
- * @version 1.2.0
+ * @version 1.2.1
  */
-public abstract class TrigReciprocal {
+public final class TrigReciprocal {
+
+	/**
+	 * TrigReciprocal class cannot be instantiated.
+	 * 
+	 * @throws IllegalAccessException
+	 */
+	public TrigReciprocal() throws IllegalAccessException {
+		throw new IllegalAccessException("TrigReciprocal cannot be instantiated");
+	}
+
 	/**
 	 * The reciprocal of sin.
 	 * 
