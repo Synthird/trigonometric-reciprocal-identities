@@ -22,7 +22,7 @@ public final class TrigReciprocal {
 	 * @throws IllegalAccessException
 	 */
 	public TrigReciprocal() throws IllegalAccessException {
-		throw new IllegalAccessException("TrigReciprocal cannot be instantiated");
+		throw new IllegalAccessException("TrigReciprocal cannot be instantiated!");
 	}
 
 	/**
