@@ -4,7 +4,7 @@ Trigonometric reciprocal identity methods that return radians as doubles.
 
 ## Installation
 
-1. Download the latest release of the ```TrigReciprocal.java``` class from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/tag/v1.2.0java)
+1. Download the latest release of the ```TrigReciprocal.java``` class from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/tag/v1.2.1java)
 2. Place the class inside your project
 
 ## Methods
