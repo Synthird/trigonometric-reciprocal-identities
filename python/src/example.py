@@ -17,12 +17,18 @@ except KeyboardInterrupt:
 except ValueError:
 	exit_with_message("Whoops! You didn't enter a number....")
 
+# csc
+
 try:
 	print(f"csc({number}) = {trig_reciprocal.csc(number)} radian(s)")
 except ZeroDivisionError:
 	print("csc(0) = undefined!")
 
+# sec
+
 print(f"sec({number}) = {trig_reciprocal.sec(number)} radian(s)")
+
+# cot
 
 try:
 	print(f"cot({number}) = {trig_reciprocal.cot(number)} radian(s)")
