@@ -7,12 +7,15 @@
  * <li>csc: The reciprocal of sin.</li>
  * <li>sec: The reciprocal of cos.</li>
  * <li>cot: The reciprocal of cot.</li>
+ * <li>acsc: The inverse of csc.</li>
+ * <li>asec: The inverse of sec.</li>
+ * <li>acot: The inverse of cot.</li>
  * </ul>
  * </li>
  * </ul>
  * 
  * @author Synthird
- * @version 1.2.1
+ * @version 1.3.0
  */
 public final class TrigReciprocal {
 
@@ -53,5 +56,35 @@ public final class TrigReciprocal {
 	 */
 	public static final double cot(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tan(angleInRadians);
+	}
+
+	/**
+	 * The inverse of csc.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The arccosecant of angleInRadians in radians.
+	 */
+	public static final double acsc(double angleInRadians) {
+		return Math.asin(1.0 / angleInRadians);
+	}
+
+	/**
+	 * The inverse of sec.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The arcsecant of angleInRadians.
+	 */
+	public static final double asec(double angleInRadians) {
+		return Math.acos(1.0 / angleInRadians);
+	}
+
+	/**
+	 * The inverse of cot.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The arccotangent of angleInRadians.
+	 */
+	public static final double acot(double angleInRadians) {
+		return Math.atan(1.0 / angleInRadians);
 	}
 }

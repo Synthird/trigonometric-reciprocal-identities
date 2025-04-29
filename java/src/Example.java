@@ -24,6 +24,9 @@ public class Example {
 		System.out.println(String.format("csc(%s) = %s radian(s)", number, TrigReciprocal.csc(number)));
 		System.out.println(String.format("sec(%s) = %s radian(s)", number, TrigReciprocal.sec(number)));
 		System.out.println(String.format("cot(%s) = %s radian(s)", number, TrigReciprocal.cot(number)));
+		System.out.println(String.format("arccsc(%s) = %s radian(s)", number, TrigReciprocal.acsc(number)));
+		System.out.println(String.format("arcsec(%s) = %s radian(s)", number, TrigReciprocal.asec(number)));
+		System.out.println(String.format("arccot(%s) = %s radian(s)", number, TrigReciprocal.acot(number)));
 
 		scanner.close();
 	}
