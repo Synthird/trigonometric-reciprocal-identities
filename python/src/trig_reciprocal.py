@@ -81,6 +81,11 @@ def acsc(angle_in_radians: float) -> float:
 	-------
 	float
 		The arccosecant of angle_in_radians in radians.
+	
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
 	"""
 	return math.asin(1.0 / angle_in_radians)
 
