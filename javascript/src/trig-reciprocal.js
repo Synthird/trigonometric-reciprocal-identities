@@ -1,6 +1,5 @@
 /**
  * Trigonometric reciprocal identity methods that return radians.
- * Such as cosecant, secant, and cotangent.
  * <ul>
  * 	<li><strong>Methods:</strong>
  * 		<ul>
