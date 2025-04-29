@@ -23,6 +23,8 @@ The reciprocal of sin.
 
 **Returns:** The cosecant of angle_in_radians in radians.
 
+**Raises an error:** if angle_in_radians is 0.
+
 $csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Lua
@@ -55,6 +57,8 @@ The reciprocal of tan.
 
 **Returns:** The cotangent of angle_in_radians in radians.
 
+**Raises an error:** if angle_in_radians is 0.
+
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```Lua
@@ -70,6 +74,8 @@ The inverse of csc.
 
 **Returns:** The arccosecant of angleInRadians in radians.
 
+**Raises an error:** if angle_in_radians is 0.
+
 ```Lua
 trigReciprocal.acsc(1) -- Returns 1.5707963267948966 radians.
 ```
@@ -83,6 +89,8 @@ trigReciprocal.acsc(0) -- Raises an error of attempting to perform arccsc(0) sin
 The inverse of sec.
 
 **Returns:** The arcsecant of angleInRadians in radians.
+
+**Raises an error:** if angle_in_radians is 0.
 
 ```Lua
 trigReciprocal.asec(1) -- Returns 0 radians.
