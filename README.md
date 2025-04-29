@@ -1,6 +1,6 @@
 # Trigonometric reciprocal identities
 
-Trigonometric reciprocal identity methods and functions that return radians. Such as cosecant, secant and cotangent.
+Trigonometric reciprocal identity methods/functions that return radians.
 
 ## Available languages
 
