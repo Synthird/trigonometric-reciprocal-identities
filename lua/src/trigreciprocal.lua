@@ -65,6 +65,9 @@ function trigreciprocal.asec(angle_in_radians)
 	end
 end
 
+---The inverse of cot.
+---@param angle_in_radians number --An anglie in radians.
+---@return number --The arccotangent of angle_in_radians in radians.
 function trigreciprocal.acot(angle_in_radians)
 	return math.atan(1.0 / angle_in_radians)
 end
