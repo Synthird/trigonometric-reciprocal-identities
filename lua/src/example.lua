@@ -34,3 +34,5 @@ end
 if type(arcsecant_zero) ~= "number" then
 	print("arcsec(0) = undefined!")
 end
+
+print(string.format("arccot(0) = %s", trigreciprocal.acot(0)))
