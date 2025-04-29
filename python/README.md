@@ -73,6 +73,8 @@ The inverse of csc.
 
 **Returns:** The arccosecant of angleInRadians in radians.
 
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
 ```Python
 trig_reciprocal.acsc(1) # Returns 1.5707963267948966 radians.
 ```
@@ -86,6 +88,8 @@ trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arcsin(1 / 0) is unde
 The inverse of sec.
 
 **Returns:** The arcsecant of angleInRadians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
 ```Python
 trig_reciprocal.asec(1) # Returns 0 radians.
