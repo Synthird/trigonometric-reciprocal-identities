@@ -1,5 +1,4 @@
 ---Trigonometric reciprocal identity functions that return radians.
----Such as cosecant, secant, and cotangent.
 ---
 ---**Functions:**
 --- csc: The reciprocal of sin.
