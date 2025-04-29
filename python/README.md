@@ -75,6 +75,8 @@ The inverse of csc.
 
 **Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
+$arccsc(angle) = arcsin({1 \over angle})$
+
 ```Python
 trig_reciprocal.acsc(1) # Returns 1.5707963267948966 radians.
 ```
@@ -91,6 +93,8 @@ The inverse of sec.
 
 **Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
+$arcsec(angle) = arccos({1 \over angle})$
+
 ```Python
 trig_reciprocal.asec(1) # Returns 0 radians.
 ```
@@ -104,6 +108,8 @@ trig_reciprocal.asec(0) # Raises a ZeroDivisionError since arccos(1 / 0) is unde
 The inverse of cot.
 
 **Returns:** The arccotangent of angleInRadians in radians.
+
+$arccot(angle) = arctan({1 \over angle})$
 
 ```Python
 trig_reciprocal.acot(1) # Returns 0.7853981633974483 radians.
