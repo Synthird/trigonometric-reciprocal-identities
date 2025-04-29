@@ -56,3 +56,45 @@ TrigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
 ```Java
 TrigReciprocal.cot(0.0); // Returns Double.NaN since 1 / tan(0) = 1 / 0, which is undefined.
 ```
+
+### TrigReciprocal.acsc(double angleInRadians) | Returns a double
+
+The inverse of csc.
+
+**Returns:** The arccosecant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
+```
+
+```Java
+TrigReciprocal.acsc(0); // Returns Double.NaN radians.
+```
+
+### TrigReciprocal.asec(double angleInRadians) | Returns a double
+
+The inverse of sec.
+
+**Returns:** The arcsecant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.acsc(1); // Returns 0 radians.
+```
+
+```Java
+TrigReciprocal.acsc(0); // Returns Double.NaN radians.
+```
+
+### TrigReciprocal.acot(double angleInRadians) | Returns a double
+
+The inverse of cot.
+
+**Returns:** The arccotangent of angleInRadians in radians.
+
+```Java
+TrigReciprocal.acot(1); // Returns 0.7853981633974483 radians.
+```
+
+```Java
+TrigReciprocal.acot(0); // Returns 1.5707963267948966 radians.
+```
