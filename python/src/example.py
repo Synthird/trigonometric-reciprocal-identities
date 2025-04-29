@@ -51,4 +51,4 @@ except ZeroDivisionError:
 
 # arccot
 
-print(f"arccot({number}) = {trig_reciprocal.acot(number)}")
+print(f"arccot({number}) = {trig_reciprocal.acot(number)} radian(s)")
