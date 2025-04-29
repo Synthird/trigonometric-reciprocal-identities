@@ -66,3 +66,45 @@ trig_reciprocal.cot(1.0) # Returns 0.6420926159343306 radians as a float.
 ```Python
 trig_reciprocal.cot(0.0) # Raises a ZeroDivisionError since 1 / tan(0) = 1 / 0, which is undefined.
 ```
+
+### TrigReciprocal.acsc(double angleInRadians) | Returns a double
+
+The inverse of csc.
+
+**Returns:** The arccosecant of angleInRadians in radians.
+
+```Python
+trig_reciprocal.acsc(1) # Returns 1.5707963267948966 radians.
+```
+
+```Python
+trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arcsin(1 / 0) is undefined!
+```
+
+### TrigReciprocal.asec(double angleInRadians) | Returns a double
+
+The inverse of sec.
+
+**Returns:** The arcsecant of angleInRadians in radians.
+
+```Python
+trig_reciprocal.acsc(1) # Returns 0 radians.
+```
+
+```Python
+trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined!
+```
+
+### TrigReciprocal.acot(double angleInRadians) | Returns a double
+
+The inverse of cot.
+
+**Returns:** The arccotangent of angleInRadians in radians.
+
+```Python
+trig_reciprocal.acot(1) # Returns 0.7853981633974483 radians.
+```
+
+```Python
+trig_reciprocal.acot(0) # Returns 1.5707963267948966 radians.
+```
