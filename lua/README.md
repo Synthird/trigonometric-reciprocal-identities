@@ -85,11 +85,11 @@ The inverse of sec.
 **Returns:** The arcsecant of angleInRadians in radians.
 
 ```Lua
-trigReciprocal.acsc(1) -- Returns 0 radians.
+trigReciprocal.asec(1) -- Returns 0 radians.
 ```
 
 ```Lua
-trigReciprocal.acsc(0) -- Raises an error of attempting to perform arcsec(0) since arccos(1 / 0) is undefined.
+trigReciprocal.asec(0) -- Raises an error of attempting to perform arcsec(0) since arccos(1 / 0) is undefined.
 ```
 
 ### trigreciprocal.acot(double angleInRadians) | Returns a double
