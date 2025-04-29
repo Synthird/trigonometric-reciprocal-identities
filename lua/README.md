@@ -76,6 +76,8 @@ The inverse of csc.
 
 **Raises an error:** if angle_in_radians is 0.
 
+$arccsc(angle) = arcsin({1 \over angle})$
+
 ```Lua
 trigReciprocal.acsc(1) -- Returns 1.5707963267948966 radians.
 ```
@@ -92,6 +94,8 @@ The inverse of sec.
 
 **Raises an error:** if angle_in_radians is 0.
 
+$arcsec(angle) = arccos({1 \over angle})$
+
 ```Lua
 trigReciprocal.asec(1) -- Returns 0 radians.
 ```
@@ -105,6 +109,8 @@ trigReciprocal.asec(0) -- Raises an error of attempting to perform arcsec(0) sin
 The inverse of cot.
 
 **Returns:** The arccotangent of angleInRadians in radians.
+
+$arccot(angle) = arctan({1 \over angle})$
 
 ```Lua
 trigreciprocal.acot(1) -- Returns 0.7853981633974483 radians.
