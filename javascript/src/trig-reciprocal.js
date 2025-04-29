@@ -13,7 +13,7 @@
  * 
  * @module trigReciprocal
  * @author Synthird
- * @version 1.0.1
+ * @version 1.1.0
  */
 
 /**
@@ -44,4 +44,34 @@ export function sec(angleInRadians) {
  */
 export function cot(angleInRadians) {
 	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tan(angleInRadians);
+}
+
+/**
+ * The inverse of csc.
+ * 
+ * @param angleInRadians An angle in radians.
+ * @return {number} The arccosecant of angleInRadians in radians.
+ */
+export function acsc(angleInRadians) {
+	return Math.asin(1.0 / angleInRadians);
+}
+
+/**
+ * The inverse of sec.
+ * 
+ * @param angleInRadians An angle in radians.
+ * @return {number} The arcsecant of angleInRadians.
+ */
+export function asec(angleInRadians) {
+	return Math.acos(1.0 / angleInRadians);
+}
+
+/**
+ * The inverse of cot.
+ * 
+ * @param angleInRadians An angle in radians.
+ * @return {number} The arccotangent of angleInRadians.
+ */
+export function acot(angleInRadians) {
+	return Math.atan(1.0 / angleInRadians);
 }

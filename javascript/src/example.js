@@ -9,6 +9,10 @@ const cscButton = document.getElementById("csc");
 const secButton = document.getElementById("sec");
 const cotButton = document.getElementById("cot");
 
+const acscButton = document.getElementById("acsc");
+const asecButton = document.getElementById("asec");
+const acotButton = document.getElementById("acot");
+
 cscButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(parseFloat(enterNumber.value));
 });
@@ -19,4 +23,16 @@ secButton.addEventListener("click", () => {
 
 cotButton.addEventListener("click", () => {
 	answer.textContent = trigReciprocal.cot(parseFloat(enterNumber.value));
+});
+
+acscButton.addEventListener("click", () => {
+	answer.textContent = trigReciprocal.acsc(parseFloat(enterNumber.value));
+});
+
+asecButton.addEventListener("click", () => {
+	answer.textContent = trigReciprocal.asec(parseFloat(enterNumber.value));
+});
+
+acotButton.addEventListener("click", () => {
+	answer.textContent = trigReciprocal.acot(parseFloat(enterNumber.value));
 });
