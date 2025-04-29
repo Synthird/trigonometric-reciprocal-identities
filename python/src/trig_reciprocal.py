@@ -67,3 +67,56 @@ def cot(angle_in_radians: float) -> float:
 		If angle_in_radians is 0.
 	"""
 	return 1.0 / math.tan(angle_in_radians)
+
+
+def acsc(angle_in_radians: float) -> float:
+	"""The inverse of csc.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The arccosecant of angle_in_radians in radians.
+	"""
+	return math.asin(1.0 / angle_in_radians)
+
+
+def asec(angle_in_radians: float) -> float:
+	"""The inverse of sec.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The arcsecant of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+	"""
+	return math.acos(1.0 / angle_in_radians)
+
+
+def acot(angle_in_radians: float) -> float:
+	"""The inverse of cot.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The arccotangent of angle_in_radians in radians.
+	"""
+	return math.atan(angle_in_radians)

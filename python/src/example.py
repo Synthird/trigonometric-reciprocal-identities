@@ -34,3 +34,21 @@ try:
 	print(f"cot({number}) = {trig_reciprocal.cot(number)} radian(s)")
 except ZeroDivisionError:
 	print("cot(0) = undefined!")
+
+# arccsc
+
+try:
+	print(f"arccsc({number}) = {trig_reciprocal.acsc(number)}")
+except ZeroDivisionError:
+	print("arccsc(0) = undefined!")
+
+# arcsec
+
+try:
+	print(f"arcsec({number}) = {trig_reciprocal.asec(number)}")
+except ZeroDivisionError:
+	print("arcsec(0) = undefined!")
+
+# arccot
+
+print(f"arccot({number}) = {trig_reciprocal.acot(number)}")
