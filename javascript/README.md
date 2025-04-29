@@ -69,6 +69,8 @@ The inverse of csc.
 
 **Returns:** The arccosecant of angleInRadians in radians.
 
+$arccsc(angle) = arcsin({1 \over angle})$
+
 ```JavaScript
 trigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
 ```
@@ -83,6 +85,8 @@ The inverse of sec.
 
 **Returns:** The arcsecant of angleInRadians in radians.
 
+$arcsec(angle) = arccos({1 \over angle})$
+
 ```JavaScript
 trigReciprocal.asec(1); // Returns 0 radians.
 ```
@@ -96,6 +100,8 @@ trigReciprocal.asec(0); // Returns NaN radians since arccos(1 / 0) is undefined.
 The inverse of cot.
 
 **Returns:** The arccotangent of angleInRadians in radians.
+
+$arccot(angle) = arctan({1 \over angle})$
 
 ```JavaScript
 trigReciprocal.acot(1); // Returns 0.7853981633974483 radians.
