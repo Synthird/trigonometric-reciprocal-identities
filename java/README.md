@@ -18,11 +18,11 @@ The reciprocal of sin.
 $csc(angle) ={{1} \over {sin(angle)}}$
 
 ```Java
-TrigReciprocal.csc(1.0); // Returns 1.1883951057781212 radians as a double.
+TrigReciprocal.csc(1); // Returns 1.1883951057781212 radians as a double.
 ```
 
 ```Java
-TrigReciprocal.csc(0.0); // Returns Double.NaN due since 1 / sin(0) = 1 / 0, which is undefined.
+TrigReciprocal.csc(0); // Returns Double.NaN due since 1 / sin(0) = 1 / 0, which is undefined.
 ```
 
 ### TrigReciprocal.sec(double angleInRadians) | Returns a double
@@ -34,11 +34,11 @@ The reciprocal of cos.
 $sec(angle) ={{1} \over {cos(angle)}}$
 
 ```Java
-TrigReciprocal.sec(1.0); // Returns 1.8508157176809255 radians as a double.
+TrigReciprocal.sec(1); // Returns 1.8508157176809255 radians as a double.
 ```
 
 ```Java
-TrigReciprocal.sec(0.0); // Returns 1 radian as a double since 1 / cos(0) = 1 / 1, which is 1.
+TrigReciprocal.sec(0); // Returns 1 radian as a double since 1 / cos(0) = 1 / 1, which is 1.
 ```
 
 ### TrigReciprocal.cot(double angleInRadians) | Returns a double
@@ -50,11 +50,11 @@ The reciprocal of tan.
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```Java
-TrigReciprocal.cot(1.0); // Returns 0.6420926159343306 radians as a double.
+TrigReciprocal.cot(1); // Returns 0.6420926159343306 radians as a double.
 ```
 
 ```Java
-TrigReciprocal.cot(0.0); // Returns Double.NaN since 1 / tan(0) = 1 / 0, which is undefined.
+TrigReciprocal.cot(0); // Returns Double.NaN since 1 / tan(0) = 1 / 0, which is undefined.
 ```
 
 ### TrigReciprocal.acsc(double angleInRadians) | Returns a double
