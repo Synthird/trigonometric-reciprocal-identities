@@ -74,7 +74,7 @@ trigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
 ```
 
 ```JavaScript
-trigReciprocal.acsc(0); // Returns NaN radians.
+trigReciprocal.acsc(0); // Returns NaN radians since arcsin(1 / 0) is undefined.
 ```
 
 ### trigReciprocal.asec(double angleInRadians) | Returns a double
@@ -84,11 +84,11 @@ The inverse of sec.
 **Returns:** The arcsecant of angleInRadians in radians.
 
 ```JavaScript
-trigReciprocal.acsc(1); // Returns 0 radians.
+trigReciprocal.asec(1); // Returns 0 radians.
 ```
 
 ```JavaScript
-trigReciprocal.acsc(0); // Returns NaN radians.
+trigReciprocal.asec(0); // Returns NaN radians since arccos(1 / 0) is undefined.
 ```
 
 ### trigReciprocal.acot(double angleInRadians) | Returns a double
