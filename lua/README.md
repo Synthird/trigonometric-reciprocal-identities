@@ -6,7 +6,7 @@ Trigonometric reciprocal identity functions that return radians as numbers.
 
 ## Installation
 
-1. Download the latest release of the ```trigreciprocal.lua``` module from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/tag/v1.1.0lua)
+1. Download the latest release of the ```trigreciprocal.lua``` module from the [releases page](https://github.com/Synthird/trigonometric-reciprocal-identities/releases/latest)
 2. Place the module inside your project
 
 ```Lua
