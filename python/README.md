@@ -88,11 +88,11 @@ The inverse of sec.
 **Returns:** The arcsecant of angleInRadians in radians.
 
 ```Python
-trig_reciprocal.acsc(1) # Returns 0 radians.
+trig_reciprocal.asec(1) # Returns 0 radians.
 ```
 
 ```Python
-trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined!
+trig_reciprocal.asec(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined!
 ```
 
 ### TrigReciprocal.acot(double angleInRadians) | Returns a double
