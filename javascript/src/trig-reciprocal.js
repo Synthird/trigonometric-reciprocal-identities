@@ -7,6 +7,9 @@
  * 			<li>csc: The reciprocal of sin.</li>
  * 			<li>sec: The reciprocal of cos.</li>
  * 			<li>cot: The reciprocal of cot.</li>
+ * 			<li>acsc: The inverse of csc.</li>
+ * 			<li>asec: The inverse of sec.</li>
+ * 			<li>acot: The inverse of cot.</li>
  * 		</ul>
  * 	</li>
  * </ul>
