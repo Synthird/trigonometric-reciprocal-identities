@@ -38,14 +38,14 @@ except ZeroDivisionError:
 # arccsc
 
 try:
-	print(f"arccsc({number}) = {trig_reciprocal.acsc(number)}")
+	print(f"arccsc({number}) = {trig_reciprocal.acsc(number)} radian(s)")
 except ZeroDivisionError:
 	print("arccsc(0) = undefined!")
 
 # arcsec
 
 try:
-	print(f"arcsec({number}) = {trig_reciprocal.asec(number)}")
+	print(f"arcsec({number}) = {trig_reciprocal.asec(number)} radian(s)")
 except ZeroDivisionError:
 	print("arcsec(0) = undefined!")
 
