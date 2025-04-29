@@ -127,7 +127,4 @@ def acot(angle_in_radians: float) -> float:
 	float
 		The arccotangent of angle_in_radians in radians.
 	"""
-	if angle_in_radians != 0:
-		return math.atan(1.0 / angle_in_radians)
-	else:
-		return 1.5707963267948966
+	return math.atan(1.0 / angle_in_radians) if angle_in_radians != 0 else 1.5707963267948966
