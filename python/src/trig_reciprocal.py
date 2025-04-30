@@ -1,10 +1,6 @@
 """
 Trigonometric reciprocal identity functions that return radians.
 
-Author: Synthird
-
-Version: 1.1.3
-
 Functions:
 - csc: The reciprocal of sin.
 - sec: The reciprocal of cos.
@@ -12,6 +8,10 @@ Functions:
 - acsc: The inverse of csc.
 - asec: The inverse of sec.
 - acot: The inverse of cot.
+
+Author: Synthird
+
+Version: 1.1.4
 """
 
 import math
