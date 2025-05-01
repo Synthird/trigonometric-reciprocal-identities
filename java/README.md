@@ -70,7 +70,7 @@ TrigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
 ```
 
 ```Java
-TrigReciprocal.acsc(0); // Returns Double.NaN radians since arcsin(1 / 0) is undefined.
+TrigReciprocal.acsc(0); // Returns Double.NaN since arcsin(1 / 0) is undefined.
 ```
 
 ### TrigReciprocal.asec(double angleInRadians) | Returns a double
@@ -86,7 +86,7 @@ TrigReciprocal.asec(1); // Returns 0 radians.
 ```
 
 ```Java
-TrigReciprocal.asec(0); // Returns Double.NaN radians since arccos(1 / 0) is undefined.
+TrigReciprocal.asec(0); // Returns Double.NaN since arccos(1 / 0) is undefined.
 ```
 
 ### TrigReciprocal.acot(double angleInRadians) | Returns a double

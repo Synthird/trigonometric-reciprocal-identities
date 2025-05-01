@@ -76,7 +76,7 @@ trigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
 ```
 
 ```JavaScript
-trigReciprocal.acsc(0); // Returns NaN radians since arcsin(1 / 0) is undefined.
+trigReciprocal.acsc(0); // Returns NaN since arcsin(1 / 0) is undefined.
 ```
 
 ### trigReciprocal.asec(double angleInRadians) | Returns a double
@@ -92,7 +92,7 @@ trigReciprocal.asec(1); // Returns 0 radians.
 ```
 
 ```JavaScript
-trigReciprocal.asec(0); // Returns NaN radians since arccos(1 / 0) is undefined.
+trigReciprocal.asec(0); // Returns NaN since arccos(1 / 0) is undefined.
 ```
 
 ### trigReciprocal.acot(double angleInRadians) | Returns a double
