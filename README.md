@@ -4,7 +4,7 @@ Trigonometric reciprocal identity methods/functions that return radians.
 
 ## Available languages
 
-These methods/functions are currently available in:
+These methods/functions are available in:
 
 - [Java](java)
 - [JavaScript](javascript)
