@@ -82,7 +82,7 @@ trig_reciprocal.acsc(1) # Returns 1.5707963267948966 radians.
 ```
 
 ```Python
-trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arcsin(1 / 0) is undefined!
+trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arcsin(1 / 0) is undefined.
 ```
 
 ### trig_reciprocal.asec(double angleInRadians) | Returns a double
@@ -100,7 +100,7 @@ trig_reciprocal.asec(1) # Returns 0 radians.
 ```
 
 ```Python
-trig_reciprocal.asec(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined!
+trig_reciprocal.asec(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined.
 ```
 
 ### trig_reciprocal.acot(double angleInRadians) | Returns a double
