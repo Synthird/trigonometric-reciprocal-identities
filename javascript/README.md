@@ -24,7 +24,7 @@ The reciprocal of sin.
 $csc(angle) ={{1} \over {sin(angle)}}$
 
 ```JavaScript
-trigReciprocal.csc(1); // Returns 1.1883951057781212 radians as a number.
+trigReciprocal.csc(1); // Returns 1.1883951057781212 radians.
 ```
 
 ```JavaScript
@@ -40,11 +40,11 @@ The reciprocal of cos.
 $sec(angle) ={{1} \over {cos(angle)}}$
 
 ```JavaScript
-trigReciprocal.sec(1); // Returns 1.8508157176809255 radians as a number.
+trigReciprocal.sec(1); // Returns 1.8508157176809255 radians.
 ```
 
 ```JavaScript
-trigReciprocal.sec(0); // Returns 1 radian as a number since 1 / cos(0) = 1 / 1, which is 1.
+trigReciprocal.sec(0); // Returns 1 radian as a since 1 / cos(0) = 1 / 1, which is 1.
 ```
 
 ### trigReciprocal.cot(angleInRadians: number) | Returns a number
@@ -56,7 +56,7 @@ The reciprocal of tan.
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```JavaScript
-trigReciprocal.cot(1); // Returns 0.6420926159343306 radians as a number.
+trigReciprocal.cot(1); // Returns 0.6420926159343306 radians.
 ```
 
 ```JavaScript
