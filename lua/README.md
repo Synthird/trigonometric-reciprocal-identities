@@ -1,6 +1,6 @@
 # Trigonometric reciprocal identities in Lua
 
-[![Lua logo](https://www.lua.org/images/lua-logo.gif)](https://lua.org)
+[![Lua website](https://www.lua.org/images/lua-logo.gif)](https://lua.org)
 
 Trigonometric reciprocal identity functions that return radians as numbers.
 
