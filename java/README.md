@@ -22,7 +22,7 @@ TrigReciprocal.csc(1); // Returns 1.1883951057781212 radians as a double.
 ```
 
 ```Java
-TrigReciprocal.csc(0); // Returns Double.NaN due since 1 / sin(0) = 1 / 0, which is undefined.
+TrigReciprocal.csc(0); // Returns Double.NaN since 1 / sin(0) = 1 / 0, which is undefined.
 ```
 
 ### TrigReciprocal.sec(double angleInRadians) | Returns a double
