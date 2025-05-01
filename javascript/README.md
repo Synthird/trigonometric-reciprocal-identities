@@ -63,7 +63,7 @@ trigReciprocal.cot(1); // Returns 0.6420926159343306 radians as a number.
 trigReciprocal.cot(0); // Returns NaN since 1 / tan(0) = 1 / 0, which is undefined.
 ```
 
-### trigReciprocal.acsc(double angleInRadians) | Returns a double
+### trigReciprocal.acsc(angleInRadians: number) | Returns a number
 
 The inverse of csc.
 
@@ -79,7 +79,7 @@ trigReciprocal.acsc(1); // Returns 1.5707963267948966 radians.
 trigReciprocal.acsc(0); // Returns NaN since arcsin(1 / 0) is undefined.
 ```
 
-### trigReciprocal.asec(double angleInRadians) | Returns a double
+### trigReciprocal.asec(angleInRadians: number) | Returns a number
 
 The inverse of sec.
 
@@ -95,7 +95,7 @@ trigReciprocal.asec(1); // Returns 0 radians.
 trigReciprocal.asec(0); // Returns NaN since arccos(1 / 0) is undefined.
 ```
 
-### trigReciprocal.acot(double angleInRadians) | Returns a double
+### trigReciprocal.acot(angleInRadians: number) | Returns a number
 
 The inverse of cot.
 

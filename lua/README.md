@@ -68,7 +68,7 @@ trigreciprocal.cot(1) -- Returns 0.6420926159343306 radians as a number.
 ```Lua
 trigreciprocal.cot(0) -- Raises an error of attempting to perform cot(0) since 1 / tan(0) = 1 / 0, which is undefined.
 ```
-### trigreciprocal.acsc(double angleInRadians) | Returns a double
+### trigreciprocal.acsc(angle_in_radians: number) | Returns a number
 
 The inverse of csc.
 
@@ -86,7 +86,7 @@ trigReciprocal.acsc(1) -- Returns 1.5707963267948966 radians.
 trigReciprocal.acsc(0) -- Raises an error of attempting to perform arccsc(0) since arcsin(1 / 0) is undefined.
 ```
 
-### trigreciprocal.asec(double angleInRadians) | Returns a double
+### trigreciprocal.asec(angle_in_radians: number) | Returns a number
 
 The inverse of sec.
 
@@ -104,7 +104,7 @@ trigReciprocal.asec(1) -- Returns 0 radians.
 trigReciprocal.asec(0) -- Raises an error of attempting to perform arcsec(0) since arccos(1 / 0) is undefined.
 ```
 
-### trigreciprocal.acot(double angleInRadians) | Returns a double
+### trigreciprocal.acot(angle_in_radians: number) | Returns a number
 
 The inverse of cot.
 

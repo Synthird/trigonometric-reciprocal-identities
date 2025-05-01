@@ -67,7 +67,7 @@ trig_reciprocal.cot(1) # Returns 0.6420926159343306 radians as a float.
 trig_reciprocal.cot(0) # Raises a ZeroDivisionError since 1 / tan(0) = 1 / 0, which is undefined.
 ```
 
-### trig_reciprocal.acsc(double angleInRadians) | Returns a double
+### trig_reciprocal.acsc(angle_in_radians: float) | Returns a float
 
 The inverse of csc.
 
@@ -85,7 +85,7 @@ trig_reciprocal.acsc(1) # Returns 1.5707963267948966 radians.
 trig_reciprocal.acsc(0) # Raises a ZeroDivisionError since arcsin(1 / 0) is undefined.
 ```
 
-### trig_reciprocal.asec(double angleInRadians) | Returns a double
+### trig_reciprocal.asec(angle_in_radians: float) | Returns a float
 
 The inverse of sec.
 
@@ -103,7 +103,7 @@ trig_reciprocal.asec(1) # Returns 0 radians.
 trig_reciprocal.asec(0) # Raises a ZeroDivisionError since arccos(1 / 0) is undefined.
 ```
 
-### trig_reciprocal.acot(double angleInRadians) | Returns a double
+### trig_reciprocal.acot(angle_in_radians: float) | Returns a float
 
 The inverse of cot.
 
