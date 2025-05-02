@@ -15,7 +15,7 @@
  * 
  * @module trigReciprocal
  * @author Synthird
- * @version 1.1.2
+ * @version 1.1.3
  */
 
 /**
@@ -51,7 +51,7 @@ export function cot(angleInRadians) {
 /**
  * The inverse of csc.
  * 
- * @param angleInRadians An angle in radians.
+ * @param {number} angleInRadians An angle in radians.
  * @return {number} The arccosecant of angleInRadians in radians.
  */
 export function acsc(angleInRadians) {
@@ -61,7 +61,7 @@ export function acsc(angleInRadians) {
 /**
  * The inverse of sec.
  * 
- * @param angleInRadians An angle in radians.
+ * @param {number} angleInRadians An angle in radians.
  * @return {number} The arcsecant of angleInRadians.
  */
 export function asec(angleInRadians) {
@@ -71,7 +71,7 @@ export function asec(angleInRadians) {
 /**
  * The inverse of cot.
  * 
- * @param angleInRadians An angle in radians.
+ * @param {number} angleInRadians An angle in radians.
  * @return {number} The arccotangent of angleInRadians.
  */
 export function acot(angleInRadians) {
