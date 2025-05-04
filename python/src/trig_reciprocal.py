@@ -9,9 +9,7 @@ Functions:
 - asec: The inverse of sec.
 - acot: The inverse of cot.
 
-Author: Synthird
-
-Version: 1.1.4
+Version: 1.1.5
 """
 
 import math
