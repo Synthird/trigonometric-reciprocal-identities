@@ -11,7 +11,7 @@
 ---@module "trigreciprocal"
 ---@author Synthird
 ---@license MIT
----@version 1.1.1
+---@version 1.1.2
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
