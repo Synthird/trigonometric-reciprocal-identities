@@ -15,8 +15,8 @@
  * 
  * @module trigReciprocal
  * @author Synthird
- * @version 1.1.4
  * @license MIT
+ * @version 1.1.4
  */
 
 /**
