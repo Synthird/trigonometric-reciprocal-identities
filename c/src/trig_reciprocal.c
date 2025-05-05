@@ -1,3 +1,11 @@
+/**
+ * @brief Trigonometric reciprocal identity methods that return radians.
+ * @file trig_reciprocal.c
+ * @author Synthird
+ * @copyright MIT
+ * @version 1.0.0
+ */
+
 #include <math.h>
 
 /**
