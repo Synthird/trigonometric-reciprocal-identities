@@ -11,3 +11,15 @@ double sec(double angleInRadians) {
 double cot(double angleInRadians) {
 	return 0.0 == angleInRadians ? NAN : 1.0 / tan(angleInRadians);
 }
+
+double acsc(double angleInRadians) {
+	return asin(1.0 / angleInRadians);
+}
+
+double asec(double angleInRadians) {
+	return acos(1.0 / angleInRadians);
+}
+
+double acot(double angleInRadians) {
+	return atan(1.0 / angleInRadians);
+}
