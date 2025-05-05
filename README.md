@@ -6,6 +6,7 @@ Trigonometric reciprocal identity methods/functions that return radians.
 
 These methods/functions are available in:
 
+- [C](c)
 - [Java](java)
 - [JavaScript](javascript)
 - [Lua](lua)
