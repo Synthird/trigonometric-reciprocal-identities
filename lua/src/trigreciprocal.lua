@@ -1,17 +1,9 @@
 ---Trigonometric reciprocal identity functions that return radians.
 ---
----**Functions:**
---- - csc: The reciprocal of sin.
---- - sec: The reciprocal of cos.
---- - cot: The reciprocal of tan.
---- - acsc: The inverse of csc.
---- - asec: The inverse of sec.
---- - acot: The inverse of cot.
----
 ---@module "trigreciprocal"
 ---@author Synthird
 ---@license MIT
----@version 1.1.2
+---@version 1.1.3
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
