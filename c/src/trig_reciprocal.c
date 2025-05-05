@@ -2,7 +2,7 @@
  * @brief Trigonometric reciprocal identity methods that return radians.
  * @file trig_reciprocal.c
  * @author Synthird
- * @copyright MIT
+ * @copyright MIT license
  * @version 1.0.0
  */
 
