@@ -13,11 +13,11 @@ double cot(double angleInRadians) {
 }
 
 double acsc(double angleInRadians) {
-	return asin(1.0 / angleInRadians);
+	return 0.0 == angleInRadians ? NAN : asin(1.0 / angleInRadians);
 }
 
 double asec(double angleInRadians) {
-	return acos(1.0 / angleInRadians);
+	return 0.0 == angleInRadians ? NAN : acos(1.0 / angleInRadians);
 }
 
 double acot(double angleInRadians) {

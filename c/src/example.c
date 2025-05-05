@@ -10,7 +10,7 @@ int main(void) {
 	printf("sec(%lf) = %lf radians\n", number, sec(number));
 	printf("cot(%lf) = %lf radians\n", number, cot(number));
 	printf("arccsc(%lf) = %lf radians\n", number, acsc(number));
-	printf("arcsec(%lf) = %lf\n", number, asec(number));
+	printf("arcsec(%lf) = %lf radians\n", number, asec(number));
 	printf("arccot(%lf) = %lf radians\n", number, acot(number));
 	return 0;
 }
