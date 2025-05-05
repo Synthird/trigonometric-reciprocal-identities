@@ -24,7 +24,7 @@ The reciprocal of sin.
 $csc(angle) ={{1} \over {sin(angle)}}$
 
 ```C
-csc(1); // Returns 1.1883951057781212 radians.
+csc(1); // Returns 1.188395 radians.
 ```
 
 ```C
@@ -40,7 +40,7 @@ The reciprocal of cos.
 $sec(angle) ={{1} \over {cos(angle)}}$
 
 ```C
-sec(1); // Returns 1.8508157176809255 radians.
+sec(1); // Returns 1.850816 radians.
 ```
 
 ```C
@@ -56,7 +56,7 @@ The reciprocal of tan.
 $cot(angle) ={{1} \over {tan(angle)}}$ or ${cos(angle) \over sin(angle)}$
 
 ```C
-cot(1); // Returns 0.6420926159343306 radians.
+cot(1); // Returns 0.642093 radians.
 ```
 
 ```C
@@ -72,7 +72,7 @@ The inverse of csc.
 $arccsc(angle) = arcsin({1 \over angle})$
 
 ```C
-acsc(1); // Returns 1.5707963267948966 radians.
+acsc(1); // Returns 1.570796 radians.
 ```
 
 ```C
@@ -104,9 +104,9 @@ The inverse of cot.
 $arccot(angle) = arctan({1 \over angle})$
 
 ```C
-acot(1); // Returns 0.7853981633974483 radians.
+acot(1); // Returns 0.785398 radians.
 ```
 
 ```C
-acot(0); // Returns 1.5707963267948966 radians.
+acot(0); // Returns 1.570796 radians.
 ```
