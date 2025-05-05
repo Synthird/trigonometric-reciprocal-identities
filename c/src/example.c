@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "trig_reciprocal.c"
+#include <stdio.h>
 
 int main(void) {
 	double number = 0;
