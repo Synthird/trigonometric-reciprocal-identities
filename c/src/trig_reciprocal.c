@@ -2,8 +2,8 @@
  * @brief Trigonometric reciprocal identity methods that return radians.
  * @file trig_reciprocal.c
  * @author Synthird
- * @copyright MIT
- * @version 1.0.0
+ * @copyright MIT license
+ * @version 1.0.1
  */
 
 #include <math.h>
