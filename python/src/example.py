@@ -45,14 +45,14 @@ print_heading()
 try:
 	print(f"arccsc({number}) = {trig_reciprocal.acsc(number)} radian(s)")
 except (ZeroDivisionError, ValueError):
-	print("arccsc(0) = undefined!")
+	print(f"arccsc({number}) = undefined!")
 
 # arcsec
 
 try:
 	print(f"arcsec({number}) = {trig_reciprocal.asec(number)} radian(s)")
 except (ZeroDivisionError, ValueError):
-	print("arcsec(0) = undefined!")
+	print(f"arcsec({number}) = undefined!")
 
 # arccot
 
