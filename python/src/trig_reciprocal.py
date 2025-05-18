@@ -82,6 +82,9 @@ def acsc(angle_in_radians: float) -> float:
 	------
 	ZeroDivisionError
 		If angle_in_radians is 0.
+	
+	ValueError
+		If angle_in_radians is above 0 and below 1.
 	"""
 	return math.asin(1.0 / angle_in_radians)
 
@@ -103,6 +106,9 @@ def asec(angle_in_radians: float) -> float:
 	------
 	ZeroDivisionError
 		If angle_in_radians is 0.
+
+	ValueError
+		If angle_in_radians is above 0 and below 1.
 	"""
 	return math.acos(1.0 / angle_in_radians)
 

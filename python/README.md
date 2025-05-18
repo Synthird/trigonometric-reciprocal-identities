@@ -75,6 +75,8 @@ The inverse of csc.
 
 **Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
+**Raises a ValueError:** If angle_in_radians is above 0 and below 1.
+
 $arccsc(angle) = arcsin({1 \over angle})$
 
 ```Python
@@ -92,6 +94,8 @@ The inverse of sec.
 **Returns:** The arcsecant of angleInRadians in radians.
 
 **Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
+**Raises a ValueError:** If angle_in_radians is above 0 and below 1.
 
 $arcsec(angle) = arccos({1 \over angle})$
 
