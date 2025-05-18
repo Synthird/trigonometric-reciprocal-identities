@@ -41,7 +41,7 @@ double cot(double angleInRadians) {
  * @return The arccosecant of angleInRadians in radians.
  */
 double acsc(double angleInRadians) {
-	return 0.0 == angleInRadians ? NAN : asin(1.0 / angleInRadians);
+	return -1.0 > angleInRadians || 1.0 < angleInRadians ? asin(1.0 / angleInRadians) : NAN;
 }
 
 /**
@@ -50,7 +50,7 @@ double acsc(double angleInRadians) {
  * @return The arcsecant of angleInRadians in radians.
  */
 double asec(double angleInRadians) {
-	return 0.0 == angleInRadians ? NAN : acos(1.0 / angleInRadians);
+	return -1.0 > angleInRadians || 1.0 < angleInRadians ? acos(1.0 / angleInRadians) : NAN;
 }
 
 /**
@@ -87,4 +87,31 @@ double sech(double angleInRadians) {
  */
 double coth(double angleInRadians) {
 	return 0.0 == angleInRadians ? NAN : 1.0 / tanh(angleInRadians);
+}
+
+/**
+ * @brief The inverse of csch.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic arcsecant of angleInRadians in radians.
+ */
+double acsch(double angleInRadians) {
+	return 0.0 == angleInRadians ? NAN : log(sqrt((1.0 / pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
+}
+
+/**
+ * @brief The inverse of sech.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic arcsecant of angleInRadians in radians.
+ */
+double asech(double angleInRadians) {
+	return 0.0 == angleInRadians || 1.0 < angleInRadians ? NAN : log(sqrt((1.0 / angleInRadians) - 1) * sqrt((1.0 / angleInRadians) + 1) + (1.0 / angleInRadians));
+}
+
+/**
+ * @brief The inverse of coth.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic arccotangent of angleInRadians in radians.
+ */
+double acoth(double angleInRadians) {
+	return -1.0 > angleInRadians || 1.0 < angleInRadians ? 0.5 * (log(angleInRadians + 1) - log(angleInRadians - 1)) : NAN;
 }
