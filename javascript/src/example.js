@@ -5,34 +5,42 @@ import * as trigReciprocal from "./trig-reciprocal.js";
 const enterNumber = document.getElementById("enter-number");
 const answer = document.getElementById("answer");
 
-const cscButton = document.getElementById("csc");
-const secButton = document.getElementById("sec");
-const cotButton = document.getElementById("cot");
-
-const acscButton = document.getElementById("acsc");
-const asecButton = document.getElementById("asec");
-const acotButton = document.getElementById("acot");
-
-cscButton.addEventListener("click", () => {
+document.getElementById("csc").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(parseFloat(enterNumber.value));
 });
 
-secButton.addEventListener("click", () => {
+document.getElementById("sec").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.sec(parseFloat(enterNumber.value));
 });
 
-cotButton.addEventListener("click", () => {
+document.getElementById("cot").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.cot(parseFloat(enterNumber.value));
 });
 
-acscButton.addEventListener("click", () => {
+// Inverse buttons
+
+document.getElementById("acsc").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.acsc(parseFloat(enterNumber.value));
 });
 
-asecButton.addEventListener("click", () => {
+document.getElementById("asec").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.asec(parseFloat(enterNumber.value));
 });
 
-acotButton.addEventListener("click", () => {
+document.getElementById("acot").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.acot(parseFloat(enterNumber.value));
+});
+
+// Hyperbolic buttons
+
+document.getElementById("csch").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.csch(parseFloat(enterNumber.value));
+});
+
+document.getElementById("sech").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.sech(parseFloat(enterNumber.value));
+});
+
+document.getElementById("coth").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.coth(parseFloat(enterNumber.value));
 });

@@ -2,7 +2,7 @@
  * Trigonometric reciprocal identity methods that return radians.
  * 
  * @author Synthird
- * @version 1.3.2
+ * @version 1.4.0
  */
 public final class TrigReciprocal {
 
@@ -73,5 +73,35 @@ public final class TrigReciprocal {
 	 */
 	public static final double acot(double angleInRadians) {
 		return Math.atan(1.0 / angleInRadians);
+	}
+
+	/**
+	 * The hyperbolic version of csc.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic cosecant of angleInRadians in radians.
+	 */
+	public static final double csch(double angleInRadians) {
+		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.sinh(angleInRadians);
+	}
+
+	/**
+	 * The hyperbolic version of sec.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic secant of angleInRadians in radians.
+	 */
+	public static final double sech(double angleInRadians) {
+		return 1.0 / Math.cosh(angleInRadians);
+	}
+
+	/**
+	 * The hyperbolic version of cot.
+	 * 
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic cotangent of angleInRadians in radians.
+	 */
+	public static final double coth(double angleInRadians) {
+		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tanh(angleInRadians);
 	}
 }

@@ -3,7 +3,7 @@
  * @file trig_reciprocal.c
  * @author Synthird
  * @copyright MIT license
- * @version 1.0.1
+ * @version 1.1.0
  */
 
 #include <math.h>
@@ -60,4 +60,31 @@ double asec(double angleInRadians) {
  */
 double acot(double angleInRadians) {
 	return atan(1.0 / angleInRadians);
+}
+
+/**
+ * @brief The hyperbolic version of csc.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic cosecant of angleInRadians in radians.
+ */
+double csch(double angleInRadians) {
+	return 0.0 == angleInRadians ? NAN : 1.0 / sinh(angleInRadians);
+}
+
+/**
+ * @brief The hyperbolic version of sec.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic secant of angleInRadians in radians.
+ */
+double sech(double angleInRadians) {
+	return 1.0 / cosh(angleInRadians);
+}
+
+/**
+ * @brief The hyperbolic version of cot.
+ * @param angleInRadians An angle in radians.
+ * @return The hyperbolic cotangent of angleInRadians in radians.
+ */
+double coth(double angleInRadians) {
+	return 0.0 == angleInRadians ? NAN : 1.0 / tanh(angleInRadians);
 }

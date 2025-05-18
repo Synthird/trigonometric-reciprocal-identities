@@ -4,7 +4,7 @@
  * @module trigReciprocal
  * @author Synthird
  * @license MIT
- * @version 1.1.5
+ * @version 1.2.0
  */
 
 /**
@@ -65,4 +65,31 @@ export function asec(angleInRadians) {
  */
 export function acot(angleInRadians) {
 	return Math.atan(1.0 / angleInRadians);
+}
+
+/**
+ * The hyperbolic version of csc.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic cosecant of angleInRadians in radians.
+ */
+export function csch(angleInRadians) {
+	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.sinh(angleInRadians);
+}
+
+/**
+ * The hyperbolic version of sec.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic secant of angleInRadians in radians.
+ */
+export function sech(angleInRadians) {
+	return 1.0 / Math.cosh(angleInRadians);
+}
+
+/**
+ * The hyperbolic version of cot.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic cotangent of angleInRadians in radians.
+ */
+export function coth(angleInRadians) {
+	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tanh(angleInRadians);
 }

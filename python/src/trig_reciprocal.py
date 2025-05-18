@@ -1,7 +1,7 @@
 """
 Trigonometric reciprocal identity functions that return radians.
 
-Version: 1.1.6
+Version: 1.2.0
 """
 
 import math
@@ -121,3 +121,66 @@ def acot(angle_in_radians: float) -> float:
 		The arccotangent of angle_in_radians in radians.
 	"""
 	return math.atan(1.0 / angle_in_radians) if angle_in_radians != 0 else 1.5707963267948966
+
+
+def csch(angle_in_radians: float) -> float:
+	"""The hyperbolic version of csc.
+
+	Parameters
+	----------
+	angle_in_radians : float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic cosecant of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+	"""
+	return 1.0 / math.sinh(angle_in_radians)
+
+
+def sech(angle_in_radians: float) -> float:
+	"""The hyperbolic version of sec.
+
+	Parameters
+	----------
+	angle_in_radians : float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic secant of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+	"""
+	return 1.0 / math.cosh(angle_in_radians)
+
+
+def coth(angle_in_radians: float) -> float:
+	"""The hyperbolic version of cot.
+
+	Parameters
+	----------
+	angle_in_radians : float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic cotangent of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+	"""
+	return 1.0 / math.tanh(angle_in_radians)

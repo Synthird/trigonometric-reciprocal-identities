@@ -3,7 +3,7 @@
 ---@module "trigreciprocal"
 ---@author Synthird
 ---@license MIT
----@version 1.1.3
+---@version 1.2.0
 local trigreciprocal = {}
 
 ---The reciprocal of sin.
@@ -62,6 +62,26 @@ end
 ---@return number --The arccotangent of angle_in_radians in radians.
 function trigreciprocal.acot(angle_in_radians)
 	return math.atan(1.0 / angle_in_radians)
+end
+
+function trigreciprocal.csch(angle_in_radians)
+	if angle_in_radians ~= 0 then
+		return 1.0 / ((math.exp(angle_in_radians) - math.exp(-angle_in_radians)) / 2.0)
+	else
+		error("Attempted to perform csch(0), which is undefined!")
+	end
+end
+
+function trigreciprocal.sech(angle_in_radians)
+	return 1.0 / ((math.exp(angle_in_radians) + math.exp(-angle_in_radians)) / 2.0)
+end
+
+function trigreciprocal.coth(angle_in_radians)
+	if angle_in_radians ~= 0 then
+		return ((math.exp(angle_in_radians) + math.exp(-angle_in_radians)) / (math.exp(angle_in_radians) - math.exp(-angle_in_radians)))
+	else
+		error("Attempted to perform coth(0), which is undefined!")
+	end
 end
 
 return trigreciprocal

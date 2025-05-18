@@ -10,6 +10,9 @@ def exit_with_message(message: str) -> None:
 	raise SystemExit
 
 
+def print_heading() -> None:
+	print("------------")
+
 try:
 	number = float(input("Please enter a number: "))
 except KeyboardInterrupt:
@@ -35,6 +38,8 @@ try:
 except ZeroDivisionError:
 	print("cot(0) = undefined!")
 
+print_heading()
+
 # arccsc
 
 try:
@@ -52,3 +57,23 @@ except ZeroDivisionError:
 # arccot
 
 print(f"arccot({number}) = {trig_reciprocal.acot(number)} radian(s)")
+
+print_heading()
+
+# csch
+
+try:
+	print(f"csch({number}) = {trig_reciprocal.csch(number)} radians(s)")
+except ZeroDivisionError:
+	print("csch(0) = undefined!")
+
+# sech
+
+print(f"sech({number}) = {trig_reciprocal.sech(number)} radians(s)")
+
+# coth
+
+try:
+	print(f"coth({number}) = {trig_reciprocal.coth(number)} radians(s)")
+except ZeroDivisionError:
+	print("coth(0) = undefined!")
