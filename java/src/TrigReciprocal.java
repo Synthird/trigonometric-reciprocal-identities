@@ -112,9 +112,9 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arccosecant of angleInRadians in radians.
 	 */
 	public static final double acsch(double angleInRadians) {
-		return Math.log((1.0 / angleInRadians) + (Math.sqrt(1.0 + Math.pow(angleInRadians, 2)) / Math.abs(angleInRadians)));
-		// return angleInRadians == 0.0 ? Double.NaN
-		// 		: Math.log(Math.sqrt((1.0 / Math.pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
+		return angleInRadians == 0.0 ? Double.NaN
+				: Math.log((1.0 / angleInRadians)
+						+ (Math.sqrt(1.0 + Math.pow(angleInRadians, 2)) / Math.abs(angleInRadians)));
 	}
 
 	/**
@@ -124,7 +124,8 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arcsecant of angleInRadians in radians.
 	 */
 	public static double asech(double angleInRadians) {
-		return Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2))) / angleInRadians);
+		return angleInRadians == 0.0 ? Double.NaN
+				: Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2))) / angleInRadians);
 	}
 
 	/**
@@ -134,6 +135,7 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arccotangent of angleInRadians in radians.
 	 */
 	public static double acoth(double angleInRadians) {
-		return 0.5 * Math.log((angleInRadians + 1.0) / (angleInRadians - 1.0));
+		return angleInRadians == 1.0 || angleInRadians == -1.0 ? Double.NaN
+				: 0.5 * Math.log((angleInRadians + 1.0) / (angleInRadians - 1.0));
 	}
 }
