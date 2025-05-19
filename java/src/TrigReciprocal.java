@@ -105,7 +105,9 @@ public final class TrigReciprocal {
 		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tanh(angleInRadians);
 	}
 
-	/**The inverse of csch.
+	/**
+	 * The inverse of csch.
+	 * 
 	 * @param angleInRadians An angle in radians.
 	 * @return The hyperbolic arccosecant of angleInRadians in radians.
 	 */
@@ -114,7 +116,9 @@ public final class TrigReciprocal {
 				: Math.log(Math.sqrt((1.0 / Math.pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
 	}
 
-	/**The inverse of sech.
+	/**
+	 * The inverse of sech.
+	 * 
 	 * @param angleInRadians An angle in radians.
 	 * @return The hyperbolic arcsecant of angleInRadians in radians.
 	 */
@@ -124,7 +128,9 @@ public final class TrigReciprocal {
 						+ (1.0 / angleInRadians));
 	}
 
-	/**The inverse of coth.
+	/**
+	 * The inverse of coth.
+	 * 
 	 * @param angleInRadians An angle in radians.
 	 * @return The hyperbolic arccotangent of angleInRadians in radians.
 	 */
