@@ -104,7 +104,7 @@ double acsch(double angleInRadians) {
  * @return The hyperbolic arcsecant of angleInRadians in radians.
  */
 double asech(double angleInRadians) {
-	return 0.0 > angleInRadians || 1.0 < angleInRadians ? NAN : log(sqrt((1.0 / angleInRadians) - 1) * sqrt((1.0 / angleInRadians) + 1) + (1.0 / angleInRadians));
+	return 0.0 >= angleInRadians || 1.0 < angleInRadians ? NAN : log(sqrt((1.0 / angleInRadians) - 1) * sqrt((1.0 / angleInRadians) + 1) + (1.0 / angleInRadians));
 }
 
 /**
