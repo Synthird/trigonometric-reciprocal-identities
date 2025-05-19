@@ -92,7 +92,7 @@ double coth(double angleInRadians) {
 /**
  * @brief The inverse of csch.
  * @param angleInRadians An angle in radians.
- * @return The hyperbolic arcsecant of angleInRadians in radians.
+ * @return The hyperbolic arccosecant of angleInRadians in radians.
  */
 double acsch(double angleInRadians) {
 	return 0.0 == angleInRadians ? NAN : log(sqrt((1.0 / pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
