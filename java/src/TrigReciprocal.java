@@ -104,4 +104,33 @@ public final class TrigReciprocal {
 	public static final double coth(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tanh(angleInRadians);
 	}
+
+	/**The inverse of csch.
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic arccosecant of angleInRadians in radians.
+	 */
+	public static final double acsch(double angleInRadians) {
+		return angleInRadians == 0.0 ? Double.NaN
+				: Math.log(Math.sqrt((1.0 / Math.pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
+	}
+
+	/**The inverse of sech.
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic arcsecant of angleInRadians in radians.
+	 */
+	public static double asech(double angleInRadians) {
+		return angleInRadians <= 0.0 || angleInRadians > 1.0 ? Double.NaN
+				: Math.log(Math.sqrt((1.0 / angleInRadians) - 1) * Math.sqrt((1.0 / angleInRadians) + 1)
+						+ (1.0 / angleInRadians));
+	}
+
+	/**The inverse of coth.
+	 * @param angleInRadians An angle in radians.
+	 * @return The hyperbolic arccotangent of angleInRadians in radians.
+	 */
+	public static double acoth(double angleInRadians) {
+		return angleInRadians < -1.0 || angleInRadians > 1.0
+				? 0.5 * (Math.log(angleInRadians + 1) - Math.log(angleInRadians - 1))
+				: Double.NaN;
+	}
 }

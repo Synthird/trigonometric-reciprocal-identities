@@ -37,6 +37,12 @@ public class Example {
 		System.out.println(String.format("sech(%s) = %s radians(s)", number, TrigReciprocal.sech(number)));
 		System.out.println(String.format("coth(%s) = %s radians(s)", number, TrigReciprocal.coth(number)));
 
+		printHeading();
+
+		System.out.println(String.format("arccsch(%s) = %s radian(s)", number, TrigReciprocal.acsch(number)));
+		System.out.println(String.format("arcsech(%s) = %s radian(s)", number, TrigReciprocal.asech(number)));
+		System.out.println(String.format("arccoth(%s) = %s radian(s)", number, TrigReciprocal.acoth(number)));
+
 		scanner.close();
 	}
 
