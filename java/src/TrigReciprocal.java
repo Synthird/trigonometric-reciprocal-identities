@@ -114,7 +114,7 @@ public final class TrigReciprocal {
 	public static final double acsch(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN
 				: Math.log((1.0 / angleInRadians)
-						+ (Math.sqrt(1.0 + Math.pow(angleInRadians, 2)) / Math.abs(angleInRadians)));
+						+ (Math.sqrt(1.0 + Math.pow(angleInRadians, 2.0)) / Math.abs(angleInRadians)));
 	}
 
 	/**

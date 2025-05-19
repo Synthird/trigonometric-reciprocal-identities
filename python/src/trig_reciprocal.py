@@ -77,12 +77,12 @@ def acsc(angle_in_radians: float) -> float:
 	-------
 	float
 		The arccosecant of angle_in_radians in radians.
-	
+
 	Raises
 	------
 	ZeroDivisionError
 		If angle_in_radians is 0.
-	
+
 	ValueError
 		If angle_in_radians is between 0 and 1.
 	"""
@@ -210,7 +210,7 @@ def acsch(angle_in_radians: float) -> float:
 	ZeroDivisionError
 		If angle_in_radians is 0.
 	"""
-	return math.log((1.0 / angle_in_radians) + (math.sqrt(1.0 + math.pow(angle_in_radians, 2)) / abs(angle_in_radians)))
+	return math.log((1.0 / angle_in_radians) + (math.sqrt(1.0 + math.pow(angle_in_radians, 2.0)) / abs(angle_in_radians)))
 
 
 def asech(angle_in_radians: float) -> float:

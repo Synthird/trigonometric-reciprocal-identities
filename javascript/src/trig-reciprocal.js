@@ -100,7 +100,7 @@ export function coth(angleInRadians) {
  * @returns {number} The hyperbolic arccosecant of angleInRadians in radians.
  */
 export function acsch(angleInRadians) {
-	return angleInRadians === 0.0 ? NaN : Math.log((1.0 / angleInRadians) + (Math.sqrt(1.0 + Math.pow(angleInRadians, 2)) / Math.abs(angleInRadians)));
+	return angleInRadians === 0.0 ? NaN : Math.log((1.0 / angleInRadians) + (Math.sqrt(1.0 + Math.pow(angleInRadians, 2.0)) / Math.abs(angleInRadians)));
 }
 
 /**
