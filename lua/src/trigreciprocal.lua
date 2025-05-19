@@ -64,6 +64,9 @@ function trigreciprocal.acot(angle_in_radians)
 	return math.atan(1.0 / angle_in_radians)
 end
 
+---The hyperbolic version of csc.
+---@param angle_in_radians number --An angle in radians.
+---@return number --The hyperbolic cosecant of angleInRadians in radians.
 function trigreciprocal.csch(angle_in_radians)
 	if angle_in_radians ~= 0 then
 		return 1.0 / ((math.exp(angle_in_radians) - math.exp(-angle_in_radians)) / 2.0)
@@ -72,10 +75,16 @@ function trigreciprocal.csch(angle_in_radians)
 	end
 end
 
+---The hyperbolic version of sec.
+---@param angle_in_radians number --An angle in radians.
+---@return number --The hyperbolic secant of angleInRadians in radians.
 function trigreciprocal.sech(angle_in_radians)
 	return 1.0 / ((math.exp(angle_in_radians) + math.exp(-angle_in_radians)) / 2.0)
 end
 
+---The hyperbolic version of cot.
+---@param angle_in_radians number --An angle in radians.
+---@return number --The hyperbolic cotangent of angleInRadians in radians.
 function trigreciprocal.coth(angle_in_radians)
 	if angle_in_radians ~= 0 then
 		return ((math.exp(angle_in_radians) + math.exp(-angle_in_radians)) / (math.exp(angle_in_radians) - math.exp(-angle_in_radians)))
