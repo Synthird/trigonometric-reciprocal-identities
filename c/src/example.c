@@ -1,5 +1,6 @@
 #include "trig_reciprocal.c"
 #include <stdio.h>
+#include <math.h>
 
 void printHeading();
 

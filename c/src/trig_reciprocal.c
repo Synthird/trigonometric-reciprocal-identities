@@ -95,7 +95,7 @@ double coth(double angleInRadians) {
  * @return The hyperbolic arccosecant of angleInRadians in radians.
  */
 double acsch(double angleInRadians) {
-	return 0.0 == angleInRadians ? NAN : log(sqrt((1.0 / pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
+	return log((1.0 / angleInRadians) + (sqrt(1.0 + pow(angleInRadians, 2.0)) / fabs(angleInRadians)));
 }
 
 /**
@@ -104,7 +104,7 @@ double acsch(double angleInRadians) {
  * @return The hyperbolic arcsecant of angleInRadians in radians.
  */
 double asech(double angleInRadians) {
-	return 0.0 >= angleInRadians || 1.0 < angleInRadians ? NAN : log(sqrt((1.0 / angleInRadians) - 1) * sqrt((1.0 / angleInRadians) + 1) + (1.0 / angleInRadians));
+	return 1.0 < angleInRadians || 0.0 >= angleInRadians ? NAN : log((1.0 + sqrt(1.0 - pow(angleInRadians, 2))) / angleInRadians);
 }
 
 /**
@@ -113,5 +113,5 @@ double asech(double angleInRadians) {
  * @return The hyperbolic arccotangent of angleInRadians in radians.
  */
 double acoth(double angleInRadians) {
-	return -1.0 > angleInRadians || 1.0 < angleInRadians ? 0.5 * (log(angleInRadians + 1) - log(angleInRadians - 1)) : NAN;
+	return 1.0 >= angleInRadians || -1.0 <= angleInRadians ? NAN : 0.5 * log((angleInRadians + 1.0) / (angleInRadians - 1.0));
 }
