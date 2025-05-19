@@ -84,7 +84,7 @@ def acsc(angle_in_radians: float) -> float:
 		If angle_in_radians is 0.
 	
 	ValueError
-		If angle_in_radians is above 0 and below 1.
+		If angle_in_radians is between 0 and 1.
 	"""
 	return math.asin(1.0 / angle_in_radians)
 
@@ -108,7 +108,7 @@ def asec(angle_in_radians: float) -> float:
 		If angle_in_radians is 0.
 
 	ValueError
-		If angle_in_radians is above 0 and below 1.
+		If angle_in_radians is between 0 and 1.
 	"""
 	return math.acos(1.0 / angle_in_radians)
 
@@ -190,3 +190,69 @@ def coth(angle_in_radians: float) -> float:
 		If angle_in_radians is 0.
 	"""
 	return 1.0 / math.tanh(angle_in_radians)
+
+
+def acsch(angle_in_radians: float) -> float:
+	"""The inverse of csch.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic arccosecant of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+	"""
+	return math.log((1.0 / angle_in_radians) + (math.sqrt(1.0 + math.pow(angle_in_radians, 2)) / abs(angle_in_radians)))
+
+
+def asech(angle_in_radians: float) -> float:
+	"""The inverse of sech.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic arcsecant of angle_in_radians in radians.
+
+	Raises
+	------
+	ZeroDivisionError
+		If angle_in_radians is 0.
+
+	ValueError
+		If angle_in_radians is not between 0 and 1.
+	"""
+	return math.log((1.0 + math.sqrt(1.0 - math.pow(angle_in_radians, 2))) / angle_in_radians)
+
+
+def acoth(angle_in_radians: float) -> float:
+	"""The inverse of coth.
+
+	Parameters
+	----------
+	angle_in_radians: float
+		An angle in radians.
+
+	Returns
+	-------
+	float
+		The hyperbolic arccotangent of angle_in_radians in radians.
+
+	Raises
+	------
+	ValueError
+		If angle_in_radians is between -1 and 1.
+	"""
+	return 0.5 * math.log((angle_in_radians + 1.0) / (angle_in_radians - 1.0))
