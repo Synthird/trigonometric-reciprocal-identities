@@ -93,3 +93,30 @@ export function sech(angleInRadians) {
 export function coth(angleInRadians) {
 	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tanh(angleInRadians);
 }
+
+/**
+ * The inverse of csch.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic arcsecant of angleInRadians in radians.
+ */
+export function acsch(angleInRadians) {
+	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : Math.log(Math.sqrt((1.0 / Math.pow(angleInRadians, 2)) + 1.0) + (1.0 / angleInRadians));
+}
+
+/**
+ * The inverse of sech.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic arcsecant of angleInRadians in radians.
+ */
+export function asech(angleInRadians) {
+	return angleInRadians <= 0.0 || angleInRadians > 1.0 || isNaN(angleInRadians) ? NaN : Math.log(Math.sqrt((1.0 / angleInRadians) - 1) * Math.sqrt((1.0 / angleInRadians) + 1) + (1.0 / angleInRadians));
+}
+
+/**
+ * The inverse of coth.
+ * @param {number} angleInRadians An angle in radians.
+ * @returns {number} The hyperbolic arccotangent of angleInRadians in radians.
+ */
+export function acoth(angleInRadians) {
+	return angleInRadians < -1.0 || angleInRadians > 1.0 || !isNaN(angleInRadians) ? 0.5 * (Math.log(angleInRadians + 1) - Math.log(angleInRadians - 1)) : NaN;
+}

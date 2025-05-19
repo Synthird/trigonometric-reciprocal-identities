@@ -44,3 +44,17 @@ document.getElementById("sech").addEventListener("click", () => {
 document.getElementById("coth").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.coth(parseFloat(enterNumber.value));
 });
+
+// Inverse hyperbolic functions
+
+document.getElementById("acsch").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.acsch(parseFloat(enterNumber.value));
+});
+
+document.getElementById("asech").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.asech(parseFloat(enterNumber.value));
+});
+
+document.getElementById("acoth").addEventListener("click", () => {
+	answer.textContent = trigReciprocal.acoth(parseFloat(enterNumber.value));
+});
