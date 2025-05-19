@@ -109,7 +109,7 @@ export function acsch(angleInRadians) {
  * @returns {number} The hyperbolic arcsecant of angleInRadians in radians.
  */
 export function asech(angleInRadians) {
-	return angleInRadians === 0.0 ? NaN : Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2))) / angleInRadians);
+	return angleInRadians === 0.0 ? NaN : Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2.0))) / angleInRadians);
 }
 
 /**

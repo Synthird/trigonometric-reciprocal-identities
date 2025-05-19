@@ -234,7 +234,7 @@ def asech(angle_in_radians: float) -> float:
 	ValueError
 		If angle_in_radians is not between 0 and 1.
 	"""
-	return math.log((1.0 + math.sqrt(1.0 - math.pow(angle_in_radians, 2))) / angle_in_radians)
+	return math.log((1.0 + math.sqrt(1.0 - math.pow(angle_in_radians, 2.0))) / angle_in_radians)
 
 
 def acoth(angle_in_radians: float) -> float:

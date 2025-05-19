@@ -125,7 +125,7 @@ public final class TrigReciprocal {
 	 */
 	public static double asech(double angleInRadians) {
 		return angleInRadians == 0.0 ? Double.NaN
-				: Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2))) / angleInRadians);
+				: Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2.0))) / angleInRadians);
 	}
 
 	/**
