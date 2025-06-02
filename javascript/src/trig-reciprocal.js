@@ -73,7 +73,11 @@ export function acot(angleInRadians) {
  * @returns {number} The hyperbolic cosecant of angleInRadians in radians.
  */
 export function csch(angleInRadians) {
-	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.sinh(angleInRadians);
+	if (angleInRadians === 0.0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		return 1.0 / Math.sinh(angleInRadians);
+	}
 }
 
 /**
@@ -91,7 +95,11 @@ export function sech(angleInRadians) {
  * @returns {number} The hyperbolic cotangent of angleInRadians in radians.
  */
 export function coth(angleInRadians) {
-	return angleInRadians === 0.0 || isNaN(angleInRadians) ? NaN : 1.0 / Math.tanh(angleInRadians);
+	if (angleInRadians === 0.0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		return 1.0 / Math.tanh(angleInRadians);
+	}
 }
 
 /**
