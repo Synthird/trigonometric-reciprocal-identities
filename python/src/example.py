@@ -75,5 +75,5 @@ except (ZeroDivisionError, ValueError):
 
 try:
 	print(f"arccoth({number}) = {trig_reciprocal.acoth(number)}")
-except ValueError:
+except (ZeroDivisionError, ValueError):
 	print(f"arccoth({number}) = undefined!")

@@ -254,5 +254,8 @@ def acoth(angle_in_radians: float) -> float:
 	------
 	ValueError
 		If angle_in_radians is between -1 and 1.
+
+	ZeroDivisionError
+		If angle_in_radians is 1.
 	"""
 	return 0.5 * math.log((angle_in_radians + 1.0) / (angle_in_radians - 1.0))
