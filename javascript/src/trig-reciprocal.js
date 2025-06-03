@@ -108,7 +108,13 @@ export function coth(angleInRadians) {
  * @returns {number} The hyperbolic arccosecant of angleInRadians in radians.
  */
 export function acsch(angleInRadians) {
-	return angleInRadians === 0.0 ? NaN : Math.log((1.0 / angleInRadians) + (Math.sqrt(1.0 + Math.pow(angleInRadians, 2.0)) / Math.abs(angleInRadians)));
+	if (angleInRadians === 0.0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		const numerator = 1.0 + Math.sqrt(1.0 + Math.pow(angleInRadians, 2.0));
+
+		return Math.log(numerator / angleInRadians);
+	}
 }
 
 /**
@@ -117,7 +123,13 @@ export function acsch(angleInRadians) {
  * @returns {number} The hyperbolic arcsecant of angleInRadians in radians.
  */
 export function asech(angleInRadians) {
-	return angleInRadians === 0.0 ? NaN : Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2.0))) / angleInRadians);
+	if (angleInRadians === 0.0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		const squareRoot = 1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2.0));
+
+		return Math.log(squareRoot / angleInRadians);
+	}
 }
 
 /**
@@ -126,5 +138,9 @@ export function asech(angleInRadians) {
  * @returns {number} The hyperbolic arccotangent of angleInRadians in radians.
  */
 export function acoth(angleInRadians) {
-	return angleInRadians === 1.0 || angleInRadians === -1.0 ? NaN : 0.5 * Math.log((angleInRadians + 1.0) / (angleInRadians - 1.0));
+	if (angleInRadians === 1.0 || angleInRadians === -1.0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		return 0.5 * Math.log((angleInRadians + 1.0) / (angleInRadians - 1.0));
+	}
 }
