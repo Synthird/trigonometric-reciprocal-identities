@@ -22,7 +22,7 @@ public final class TrigReciprocal {
 	 * @return The cosecant of angleInRadians in radians.
 	 */
 	public static final double csc(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.sin(angleInRadians);
+		return angleInRadians == 0 ? Double.NaN : 1 / Math.sin(angleInRadians);
 	}
 
 	/**
@@ -32,7 +32,7 @@ public final class TrigReciprocal {
 	 * @return The secant of angleInRadians in radians.
 	 */
 	public static final double sec(double angleInRadians) {
-		return 1.0 / Math.cos(angleInRadians);
+		return 1 / Math.cos(angleInRadians);
 	}
 
 	/**
@@ -42,7 +42,7 @@ public final class TrigReciprocal {
 	 * @return The cotangent of angleInRadians in radians.
 	 */
 	public static final double cot(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tan(angleInRadians);
+		return angleInRadians == 0 ? Double.NaN : 1 / Math.tan(angleInRadians);
 	}
 
 	/**
@@ -52,7 +52,7 @@ public final class TrigReciprocal {
 	 * @return The arccosecant of angleInRadians in radians.
 	 */
 	public static final double acsc(double angleInRadians) {
-		return Math.asin(1.0 / angleInRadians);
+		return Math.asin(1 / angleInRadians);
 	}
 
 	/**
@@ -62,7 +62,7 @@ public final class TrigReciprocal {
 	 * @return The arcsecant of angleInRadians.
 	 */
 	public static final double asec(double angleInRadians) {
-		return Math.acos(1.0 / angleInRadians);
+		return Math.acos(1 / angleInRadians);
 	}
 
 	/**
@@ -72,7 +72,7 @@ public final class TrigReciprocal {
 	 * @return The arccotangent of angleInRadians.
 	 */
 	public static final double acot(double angleInRadians) {
-		return Math.atan(1.0 / angleInRadians);
+		return Math.atan(1 / angleInRadians);
 	}
 
 	/**
@@ -82,7 +82,7 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic cosecant of angleInRadians in radians.
 	 */
 	public static final double csch(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.sinh(angleInRadians);
+		return angleInRadians == 0 ? Double.NaN : 1 / Math.sinh(angleInRadians);
 	}
 
 	/**
@@ -92,7 +92,7 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic secant of angleInRadians in radians.
 	 */
 	public static final double sech(double angleInRadians) {
-		return 1.0 / Math.cosh(angleInRadians);
+		return 1 / Math.cosh(angleInRadians);
 	}
 
 	/**
@@ -102,7 +102,7 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic cotangent of angleInRadians in radians.
 	 */
 	public static final double coth(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN : 1.0 / Math.tanh(angleInRadians);
+		return angleInRadians == 0 ? Double.NaN : 1 / Math.tanh(angleInRadians);
 	}
 
 	/**
@@ -112,9 +112,9 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arccosecant of angleInRadians in radians.
 	 */
 	public static final double acsch(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN
-				: Math.log((1.0 / angleInRadians)
-						+ (Math.sqrt(1.0 + Math.pow(angleInRadians, 2.0)) / Math.abs(angleInRadians)));
+		return angleInRadians == 0 ? Double.NaN
+				: Math.log((1 / angleInRadians)
+						+ (Math.sqrt(1 + Math.pow(angleInRadians, 2.0)) / Math.abs(angleInRadians)));
 	}
 
 	/**
@@ -124,8 +124,8 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arcsecant of angleInRadians in radians.
 	 */
 	public static double asech(double angleInRadians) {
-		return angleInRadians == 0.0 ? Double.NaN
-				: Math.log((1.0 + Math.sqrt(1.0 - Math.pow(angleInRadians, 2.0))) / angleInRadians);
+		return angleInRadians == 0 ? Double.NaN
+				: Math.log((1 + Math.sqrt(1 - Math.pow(angleInRadians, 2.0))) / angleInRadians);
 	}
 
 	/**
@@ -135,7 +135,7 @@ public final class TrigReciprocal {
 	 * @return The hyperbolic arccotangent of angleInRadians in radians.
 	 */
 	public static double acoth(double angleInRadians) {
-		return angleInRadians == 1.0 || angleInRadians == -1.0 ? Double.NaN
-				: 0.5 * Math.log((angleInRadians + 1.0) / (angleInRadians - 1.0));
+		return angleInRadians == 1 || angleInRadians == -1 ? Double.NaN
+				: 0.5 * Math.log((angleInRadians + 1) / (angleInRadians - 1));
 	}
 }
