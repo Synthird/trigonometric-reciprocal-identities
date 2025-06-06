@@ -14,7 +14,11 @@
  * @returns {number} The cosecant of angleInRadians in radians.
  */
 export function csc(angleInRadians) {
-	return angleInRadians === 0 || isNaN(angleInRadians) ? NaN : 1 / Math.sin(angleInRadians);
+	if (angleInRadians === 0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		return Math.sin(angleInRadians);
+	}
 }
 
 /**
@@ -34,7 +38,11 @@ export function sec(angleInRadians) {
  * @returns {number} The cotangent of angleInRadians in radians.
  */
 export function cot(angleInRadians) {
-	return angleInRadians === 0 || isNaN(angleInRadians) ? NaN : 1 / Math.tan(angleInRadians);
+	if (angleInRadians === 0 || isNaN(angleInRadians)) {
+		return NaN;
+	} else {
+		return 1 / Math.tan(angleInRadians);
+	}
 }
 
 /**

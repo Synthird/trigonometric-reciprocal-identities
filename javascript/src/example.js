@@ -2,8 +2,8 @@ import * as trigReciprocal from "./trig-reciprocal.js";
 
 // This file is an example of using the trigReciprocal module.
 
-const enterNumber = document.getElementById("enter-number");
-const answer = document.getElementById("answer");
+const enterNumber = document.getElementById("enter-number"),
+	answer = document.getElementById("answer");
 
 document.getElementById("csc").addEventListener("click", () => {
 	answer.textContent = trigReciprocal.csc(parseFloat(enterNumber.value));
