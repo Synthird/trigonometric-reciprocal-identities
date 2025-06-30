@@ -95,7 +95,7 @@ double coth(double angleInRadians) {
  * @return The hyperbolic arccosecant of angleInRadians in radians.
  */
 double acsch(double angleInRadians) {
-	return log((1 / angleInRadians) + (sqrt(1 + pow(angleInRadians, 2.0)) / fabs(angleInRadians)));
+	return 0 == angleInRadians ? NAN : log((1 / angleInRadians) + (sqrt(1 + pow(angleInRadians, 2.0)) / fabs(angleInRadians)));
 }
 
 /**
