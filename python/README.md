@@ -178,7 +178,7 @@ The inverse of csch.
 **Raises a ZeroDivisionError:** If angle_in_radians is 0.
 
 ```Python
-trig_reciprocal.acsch(1) # Returns 0.8813735870195429radians
+trig_reciprocal.acsch(1) # Returns 0.8813735870195429 radians
 ```
 
 ```Python
