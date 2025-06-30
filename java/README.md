@@ -104,3 +104,91 @@ TrigReciprocal.acot(1); // Returns 0.7853981633974483 radians.
 ```Java
 TrigReciprocal.acot(0); // Returns 1.5707963267948966 radians.
 ```
+
+### TrigReciprocal.csch(angleInRadians: double) | Returns a double
+
+The hyperbolic version of csc.
+
+**Returns:** The hyperbolic cosecant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.csch(1); # Returns 0.8509181282393216 radians
+```
+
+```Java
+TrigReciprocal.csch(0); // Returns Double.NaN.
+```
+
+### TrigReciprocal.sech(angleInRadians: double) | Returns a double
+
+The hyperbolic version of sec.
+
+**Returns:** The hyperbolic secant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.sech(1); // Returns 0.6480542736638855 radians.
+```
+
+```Java
+TrigReciprocal.sech(0); // Returns 1 radian.
+```
+
+### TrigReciprocal.coth(angleInRadians: double) | Returns a double
+
+The hyperbolic version of cot.
+
+**Returns:** The hyperbolic cotangent of angleInRadians in radians.
+
+```Java
+TrigReciprocal.coth(1); // Returns 1.3130352854993315 radians.
+```
+
+```Java
+TrigReciprocal.coth(0); // Returns Double.NaN.
+```
+
+### TrigReciprocal.acsch(angleInRadians: double) | Returns a double
+
+The inverse of csch.
+
+**Returns:** The hyperbolic arccosecant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.acsch(1); // Returns 0.8813735870195429 radians
+```
+
+```Java
+TrigReciprocal.acsch(0); // Returns Double.NaN.
+```
+
+### TrigReciprocal.asech(angleInRadians: double) | Returns a double
+
+The inverse of sech.
+
+**Returns:** The hyperbolic secant of angleInRadians in radians.
+
+```Java
+TrigReciprocal.asech(1); // Returns 0 radians.
+```
+
+```Java
+TrigReciprocal.asech(0); // Returns Double.NaN.
+```
+
+### TrigReciprocal.acoth(angleInRadians: double) | Returns a double
+
+The inverse of coth.
+
+**Returns:** The hyperbolic cotangent of angleInRadians in radians.
+
+```Java
+TrigReciprocal.acoth(1); // Returns Double.NaN.
+```
+
+```Java
+TrigReciprocal.acoth(2); // Returns 0.5493061443340549 radians.
+```
+
+```Java
+TrigReciprocal.acoth(0); // Returns Double.NaN.
+```
