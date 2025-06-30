@@ -122,3 +122,105 @@ trig_reciprocal.acot(1) # Returns 0.7853981633974483 radians.
 ```Python
 trig_reciprocal.acot(0) # Returns 1.5707963267948966 radians.
 ```
+
+### trig_reciprocal.csch(angle_in_radians: float) | Returns a float
+
+The hyperbolic version of csc.
+
+**Returns:** The hyperbolic cosecant of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
+```Python
+trig_reciprocal.csch(1) # Returns 0.8509181282393216 radians
+```
+
+```Python
+trig_reciprocal.csch(0) # Raises a ZeroDivisionError.
+```
+
+### trig_reciprocal.sech(angle_in_radians: float) | Returns a float
+
+The hyperbolic version of sec.
+
+**Returns:** The hyperbolic secant of angle_in_radians in radians.
+
+```Python
+trig_reciprocal.sech(1) # Returns 0.6480542736638855 radians.
+```
+
+```Python
+trig_reciprocal.sech(0) # Returns 1 radian.
+```
+
+### trig_reciprocal.coth(angle_in_radians: float) | Returns a float
+
+The hyperbolic version of cot.
+
+**Returns:** The hyperbolic cotangent of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
+```Python
+trig_reciprocal.coth(1) # Returns 1.3130352854993315 radians.
+```
+
+```Python
+trig_reciprocal.coth(0) # Raises a ZeroDivisionError.
+```
+
+### trig_reciprocal.acsch(angle_in_radians: float) | Returns a float
+
+The inverse of csch.
+
+**Returns:** The hyperbolic arccosecant of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
+```Python
+trig_reciprocal.acsch(1) # Returns 0.8813735870195429radians
+```
+
+```Python
+trig_reciprocal.acsch(0) # Raises a ZeroDivisionError.
+```
+
+### trig_reciprocal.asech(angle_in_radians: float) | Returns a float
+
+The inverse of sech.
+
+**Returns:** The hyperbolic secant of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 0.
+
+**Raises a ValueError:** If angle_in_radians is not between 0 and 1.
+
+```Python
+trig_reciprocal.asech(1) # Returns 0 radians.
+```
+
+```Python
+trig_reciprocal.asech(0) # Raises a ZeroDivisionError.
+```
+
+### trig_reciprocal.acoth(angle_in_radians: float) | Returns a float
+
+The inverse of coth.
+
+**Returns:** The hyperbolic cotangent of angle_in_radians in radians.
+
+**Raises a ZeroDivisionError:** If angle_in_radians is 1.
+
+**Raises a ValueError:** If angle_in_radians is between -1 and 1.
+
+```Python
+trig_reciprocal.acoth(1) # Raises a ZeroDivisionError.
+```
+
+```Python
+trig_reciprocal.acoth(2) # Returns 0.5493061443340549 radians.
+```
+
+```Python
+trig_reciprocal.acoth(0) # Raises a ValueError.
+```
