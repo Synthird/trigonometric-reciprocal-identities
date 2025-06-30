@@ -119,3 +119,101 @@ trigreciprocal.acot(1) -- Returns 0.7853981633974483 radians.
 ```Lua
 trigreciprocal.acot(0) -- Returns 1.5707963267948966 radians.
 ```
+
+### trigreciprocal.csch(angle_in_radians: number) | Returns a number
+
+The hyperbolic version of csc.
+
+**Returns:** The hyperbolic cosecant of angle_in_radians in radians.
+
+**Raises an error:** If angle_in_radians is 0.
+
+```Lua
+trigreciprocal.csch(1) -- Returns 0.85091812823932 radians
+```
+
+```Lua
+trigreciprocal.csch(0) -- Raises an error.
+```
+
+### trigreciprocal.sech(angle_in_radians: number) | Returns a number
+
+The hyperbolic version of sec.
+
+**Returns:** The hyperbolic secant of angle_in_radians in radians.
+
+```Lua
+trigreciprocal.sech(1) -- Returns 0.64805427366389 radians.
+```
+
+```Lua
+trigreciprocal.sech(0) -- Returns 1 radian.
+```
+
+### trigreciprocal.coth(angle_in_radians: number) | Returns a number
+
+The hyperbolic version of cot.
+
+**Returns:** The hyperbolic cotangent of angle_in_radians in radians.
+
+**Raises an error:** If angle_in_radians is 0.
+
+```Lua
+trigreciprocal.coth(1) -- Returns 1.3130352854993 radians.
+```
+
+```Lua
+trigreciprocal.coth(0) -- Raises an error.
+```
+
+### trigreciprocal.acsch(angle_in_radians: number) | Returns a number
+
+The inverse of csch.
+
+**Returns:** The hyperbolic arccosecant of angle_in_radians in radians.
+
+**Raises an error:** If angle_in_radians is 0.
+
+```Lua
+trigreciprocal.acsch(1) -- Returns 0.88137358701954 radians
+```
+
+```Lua
+trigreciprocal.acsch(0) -- Raises an error.
+```
+
+### trigreciprocal.asech(angle_in_radians: number) | Returns a number
+
+The inverse of sech.
+
+**Returns:** The hyperbolic secant of angle_in_radians in radians.
+
+**Raises an error:** If angle_in_radians is 0 or is not between 0 and 1.
+
+```Lua
+trigreciprocal.asech(1) -- Returns 0 radians.
+```
+
+```Lua
+trigreciprocal.asech(0) -- Raises an error.
+```
+
+### trigreciprocal.acoth(angle_in_radians: number) | Returns a number
+
+The inverse of coth.
+
+**Returns:** The hyperbolic cotangent of angle_in_radians in radians.
+
+**Raises an error:** If angle_in_radians is 1 or is between -1 and 1.
+
+```Lua
+trigreciprocal.acoth(1) -- Raises an error.
+```
+
+```Lua
+trigreciprocal.acoth(2) -- Returns 0.54930614433405 radians.
+```
+
+```Lua
+trigreciprocal.acoth(0) -- Raises an error.
+```
