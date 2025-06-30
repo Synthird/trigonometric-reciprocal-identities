@@ -157,10 +157,6 @@ trigReciprocal.coth(0); // Returns NaN.
 
 The inverse of csch.
 
-**Returns:** The hyperbolic arccosecant of angle_in_radians in radians.
-
-**Raises a ZeroDivisionError:** If angle_in_radians is 0.
-
 ```JavaScript
 trigReciprocal.acsch(1); // Returns 0.8813735870195429 radians
 ```
@@ -175,10 +171,6 @@ The inverse of sech.
 
 **Returns:** The hyperbolic secant of angle_in_radians in radians.
 
-**Raises a ZeroDivisionError:** If angle_in_radians is 0.
-
-**Raises a ValueError:** If angle_in_radians is not between 0 and 1.
-
 ```JavaScript
 trigReciprocal.asech(1); // Returns 0 radians.
 ```
@@ -192,10 +184,6 @@ trigReciprocal.asech(0); // Returns NaN.
 The inverse of coth.
 
 **Returns:** The hyperbolic cotangent of angle_in_radians in radians.
-
-**Raises a ZeroDivisionError:** If angle_in_radians is 1.
-
-**Raises a ValueError:** If angle_in_radians is between -1 and 1.
 
 ```JavaScript
 trigReciprocal.acoth(1); // Returns NaN.
