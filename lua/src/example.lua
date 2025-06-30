@@ -20,7 +20,7 @@ print(string.format("coth(1) = %s", trigreciprocal.coth(1)))
 
 print("----")
 
-print(string.format("arccsch(1) = %s", trigreciprocal.acsch(2)))
+print(string.format("arccsch(1) = %s", trigreciprocal.acsch(1)))
 print(string.format("arcsech(1) = %s", trigreciprocal.asech(1)))
 print(string.format("arccoth(1.1) = %s", trigreciprocal.acoth(1.1)))
 
