@@ -110,3 +110,93 @@ acot(1); // Returns 0.785398 radians.
 ```C
 acot(0); // Returns 1.570796 radians.
 ```
+
+--------------------------------------------------------------------------------
+
+### csch(angleInRadians: double) | Returns a double
+
+The hyperbolic version of csc.
+
+**Returns:** The hyperbolic cosecant of angleInRadians in radians.
+
+```C
+csch(1); # Returns 0.850918 radians
+```
+
+```C
+csch(0); // Returns nan.
+```
+
+### sech(angleInRadians: double) | Returns a double
+
+The hyperbolic version of sec.
+
+**Returns:** The hyperbolic secant of angleInRadians in radians.
+
+```C
+sech(1); // Returns 0.648054 radians.
+```
+
+```C
+sech(0); // Returns 1 radian.
+```
+
+### coth(angleInRadians: double) | Returns a double
+
+The hyperbolic version of cot.
+
+**Returns:** The hyperbolic cotangent of angleInRadians in radians.
+
+```C
+coth(1); // Returns 1.313035 radians.
+```
+
+```C
+coth(0); // Returns nan.
+```
+
+### acsch(angleInRadians: double) | Returns a double
+
+The inverse of csch.
+
+**Returns:** The hyperbolic arccosecant of angleInRadians in radians.
+
+```C
+acsch(1); // Returns 0.881374 radians
+```
+
+```C
+acsch(0); // Returns nan.
+```
+
+### asech(angleInRadians: double) | Returns a double
+
+The inverse of sech.
+
+**Returns:** The hyperbolic secant of angleInRadians in radians.
+
+```C
+asech(1); // Returns 0 radians.
+```
+
+```C
+asech(0); // Returns nan.
+```
+
+### acoth(angleInRadians: double) | Returns a double
+
+The inverse of coth.
+
+**Returns:** The hyperbolic cotangent of angleInRadians in radians.
+
+```C
+acoth(1); // Returns nan.
+```
+
+```C
+acoth(2); // Returns 0.549306 radians.
+```
+
+```C
+acoth(0); // Returns nan.
+```
