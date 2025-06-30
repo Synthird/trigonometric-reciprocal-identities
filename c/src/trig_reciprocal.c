@@ -113,5 +113,5 @@ double asech(double angleInRadians) {
  * @return The hyperbolic arccotangent of angleInRadians in radians.
  */
 double acoth(double angleInRadians) {
-	return 1 >= angleInRadians || -1 <= angleInRadians ? NAN : 0.5 * log((angleInRadians + 1) / (angleInRadians - 1));
+	return 1 == angleInRadians || -1 == angleInRadians ? NAN : 0.5 * log((angleInRadians + 1) / (angleInRadians - 1));
 }
