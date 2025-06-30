@@ -163,10 +163,6 @@ def sech(angle_in_radians: float) -> float:
 	float
 		The hyperbolic secant of angle_in_radians in radians.
 
-	Raises
-	------
-	ZeroDivisionError
-		If angle_in_radians is 0.
 	"""
 	return 1 / math.cosh(angle_in_radians)
 
