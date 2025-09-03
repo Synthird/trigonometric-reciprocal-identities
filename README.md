@@ -15,3 +15,7 @@ These methods/functions are available in:
 ## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.
+
+## Archival
+
+This repository is no longer being maintained. You still must give credit even if it is archived.
